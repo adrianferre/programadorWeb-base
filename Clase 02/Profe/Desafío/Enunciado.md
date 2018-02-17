@@ -1,3 +1,5 @@
-# Crear un programa que muestre si un día es fin de semana según un dato ingresado por el usuario
 
-- Pedir nombre mediante `prompt` al usuario que ingrese un día de la semana y mostrar en consola un mensaje si el día es fin de semana.
+
+# Crear un programa que muestre si un día es fin de semana
+
+- Crear un array con todos los días de la semana, recorrerlo y mostrar en consola `Es fin de semana` cuando es sábado o domingo.

@@ -151,6 +151,6 @@
 
 // console.log(parsedAge >= legalAge)
 
-var firstName = prompt('Ingrese su nombre')
+// var firstName = prompt('Ingrese su nombre')
 
-console.log(firstName > 'Ana')
+// console.log(firstName > 'Ana')
