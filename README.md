@@ -22,8 +22,8 @@ Para poder trabajar cada uno en su maquina y mantenerse actualizados con lo que 
 1. Hagan un Fork del repositorio en su GitHub.
 2. En la consola posicionense en la carpeta donde van a guardar las clases
 3. Clonen el repositorio en su maquina local usando el comando `git clone <URL_del_repositorio en_su_GitHub>`.
-4. Entren al repositorio haciendo `cd desarrolladorFrontEnd-2945`. 
-5. Luego ejecuten el comando `git remote add profe https://github.com/adrianc4/desarrolladorFrontEnd-2945.git` para vincular su repo con el mio.
+4. Entren al repositorio haciendo `cd programadorWeb-2945`. 
+5. Luego ejecuten el comando `git remote add profe https://github.com/adrianc4/programadorWeb-2945.git` para vincular su repo con el mio.
 6. Verifiquen que tienen agregados los dos origines con el comando `git remote -v`.
 7. Cada vez que quieran actualizar el repositorio con lo que subí hagan un `git pull profe master`.
 8. Para subir sus cambios usen los mismos comandos que usan siempre `git add .`, `git commit -m '<Comentario>'` y `git push`, los cambios solo se van a subir en su repositorio de GitHub.
