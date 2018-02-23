@@ -1,0 +1,39 @@
+{ 
+    "search.exclude": {
+        // disable built-in rule
+        "**/node_modules": false,
+
+        // only exclude root node_modules
+        "node_modules": true,
+
+        ".vscode/**": true,
+
+        "build": true
+    },
+    "files.watcherExclude": {
+        // disable built-in rule
+        "**/node_modules/**": false,
+
+        // only exclude root node_modules
+        "node_modules/**": true,
+
+        "build/**": true
+    },
+
+
+    "prettier.semi": false,
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.spaceBeforeFunctionParen": true,
+    "prettier.jsonEnable": [],
+    "prettier.useTabs": false,
+    "prettier.tabWidth": 2,
+    "prettier.printWidth": 80,
+
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.formatOnSave": true,
+
+    // Disable editor lint, use standard lint
+    "javascript.validate.enable": false
+}
