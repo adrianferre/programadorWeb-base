@@ -35,5 +35,6 @@
     "editor.formatOnSave": true,
 
     // Disable editor lint, use standard lint
-    "javascript.validate.enable": false
+    "javascript.validate.enable": false,
+    "languageTool.language": "es"
 }
