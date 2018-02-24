@@ -6,6 +6,7 @@ var daysOfTheWeek = [
   'Viernes',
   'Sábado',
   'Domingo',
+  'Domingó',
   'Pato'
 ]
 
@@ -21,6 +22,8 @@ for (var i = 0; i < daysOfTheWeek.length; i++) {
       break
     case 'Sábado':
     case 'Domingo':
+    case 'domingo':
+    case 'Domingó':
       console.log('El ' + dayOfTheWeek + ' es fin de semana')
       break
     default:
