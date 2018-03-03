@@ -1,22 +1,3 @@
-// var examResults = [ 7, 5, 6, 4, 3, 2, 8 ]
-
-// var averageResult = averageExamResult(examResults)
-
-// console.log(averageResult)
-
-// var student = {
-//   firstName: 'Laura',
-//   lastName: 'Lopez',
-//   dni: 45678987,
-//   address: {
-//     street: 'Cucha cucha',
-//     number: 1234
-//   },
-//   examResults: [ 7, 5, 6, 4, 3, 2, 8 ]
-// }
-
-// showStudentDetail(student)
-
 var students = [
   {
     firstName: 'Laura',
@@ -76,21 +57,36 @@ var students = [
   }
 ]
 
-var name = prompt('Ingresa')
-searchStudentByNameAndLastName(name)
-// searchStudentAverageResult(3)
-// searchStudentAverageResult(10)
-// searchStudentAverageResult(0)
-// searchStudentByName('Pablo')
-// searchStudentByName('PEPE')
+function askAndParse (order) {
+  var number1 = prompt('Ingerese el ' + order + ' número')
+  var parsedNumber1 = parseInt(number1, 10)
+  while (isNaN(parsedNumber1)) {
+    console.log('Número erroneo')
+    var number1 = prompt('Ingerese el ' + order + ' número')
+    var parsedNumber1 = parseInt(number1, 10)
+  }
+  return parsedNumber1
+}
 
-function searchStudentByNameAndLastName (text) {
+var name = prompt('Ingresa')
+searchStudentByFirstNameAndLastName(name)
+
+// var prom = askAndParse('primer')
+
+// searchStudentAverageResult(prom)
+
+function searchStudentByFirstNameAndLastName (text) {
+  var flag = false
   for (var i = 0; i < students.length; i++) {
     var student = students[i]
     if (student.firstName === text || student.lastName === text) {
       showStudentDetail(student)
+      flag = true
       break
     }
+  }
+  if (!flag) {
+    console.log('No hay nadie con el nombre o apellido ' + text)
   }
 }
 
@@ -114,10 +110,12 @@ function showStudentDetail (student) {
   var street = student.address && student.address.street
   var streetNumber = student.address && student.address.number
 
+  var address
+
   if (street && streetNumber) {
-    var address = ', Dirección: ' + street + ' ' + streetNumber
+    address = ', Dirección: ' + street + ' ' + streetNumber
   } else {
-    var address = ''
+    address = ''
   }
 
   console.log(fullName + averageResult + dni + address)

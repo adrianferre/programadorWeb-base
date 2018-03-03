@@ -17,15 +17,18 @@ function div (number1, number2) {
 }
 
 function askAndParse (order) {
-  do {
+  var number1 = prompt('Ingerese el ' + order + ' número')
+  var parsedNumber1 = parseInt(number1, 10)
+  while (isNaN(parsedNumber1)) {
+    console.log('Número erroneo')
     var number1 = prompt('Ingerese el ' + order + ' número')
     var parsedNumber1 = parseInt(number1, 10)
-  } while (isNaN(parsedNumber1))
+  }
   return parsedNumber1
 }
 
 function askOperation () {
-  var operation = prompt('Ingrese la operacion a realizar, sum, res, mul o div')
+  var operation = prompt('Ingrese la operación a realizar, sum, res, mul o div')
   var result
   switch (operation) {
     case 'sum':

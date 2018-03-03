@@ -1,5 +1,5 @@
 # Objetos 
-   - Funciones construtoras
+   - Funciones constructoras
    - Propiedades publicas
    - Propiedades privadas
    - This en objetos
