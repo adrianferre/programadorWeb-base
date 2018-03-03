@@ -1,6 +1,6 @@
-#  Crear una función que cambie a minúsculas
+#  Crear una función que cambie a mayúsculas
 
-- La función debe recibir como parámetro un nombre de un alumno y que devolverlo en minúsculas.
+- La función debe recibir como parámetro un nombre de un alumno y que devolverlo en mayúsculas.
 
 # Crear una función que busque un alumno en un array de alumnos
 
