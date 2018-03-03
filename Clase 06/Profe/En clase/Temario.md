@@ -12,7 +12,7 @@
 - ToString
 - Push
 - Join
-- Slice
+- Splice
 - Sort
 - Reverse
 - Pop
