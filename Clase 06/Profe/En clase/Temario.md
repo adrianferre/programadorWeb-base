@@ -4,7 +4,7 @@
 - IndexOf
 - ToLowerCase
 - ToUpperCase
-- Concat
+- Includes
 - Split
 
 # Métodos de arrays

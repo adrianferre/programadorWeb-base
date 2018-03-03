@@ -5,6 +5,7 @@
 # Crear una función que busque un alumno en un array de alumnos
 
 - La función no debe distinguir mayúsculas de minúsculas.
+- Tiene que poder encontrar coincidencias parciales.
 - En caso de encontrarlo devolver la posición del alumno en el array.
 
 # Crear una función que permita agregar un alumno a un array
