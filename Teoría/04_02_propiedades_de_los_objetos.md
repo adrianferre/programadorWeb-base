@@ -4,7 +4,7 @@ Las propiedades de los objetos son todas aquellas variables que recibe o están 
 
 ## Propiedades privadas
 
-Las propiedades privadas son aquellas que la función constructora puede usar y están dentro de su definición, pero que no pueden ser modificadas ni leídas desde fuera de el scope de la función.
+Las propiedades privadas son aquellas variables que la función constructora tiene y usa dentro de su definición, pero que no pueden ser modificadas ni leídas desde fuera del scope de la función.
 
 ```js
 function User(name) {
@@ -22,7 +22,7 @@ console.log(user.name) // Muestra en consola undefined
 user.name = 'Pato'
 ```
 
-> La función constructora `User` recibe como argumento una variable `name` y cuando es instanciada mediante la palabra `new` crea un nuevo objeto usuario que es asignado a la variable `user`. Este objeto tiene las propiedades privadas `name`, que fue recibida como parámetro y `modified` que es declarada dentro de la función. Al tratar de mostrar en consola el valor de `modified`, vemos que nos devuelve undefined porque solo es visible dentro del scope de la función, lo mismo sucede al querer mostrar en consola `name`. Cuando hacemos `user.name = 'Pato'` lo que estamos haciendo es definir una propiedad publica `name` para `user`, pero la variable `name` que usa dentro de la función sigue guardando el valor `Mónica`.
+> La función constructora `User` recibe como argumento una variable `name` y cuando es instanciada mediante la palabra `new` crea un nuevo objeto usuario que es asignado a la variable `user`. Este objeto tiene las propiedades privadas `name`, que fue recibida como parámetro y `modified` que es declarada dentro de la función. Al tratar de mostrar en consola el valor de `modified`, vemos que nos devuelve `undefined` porque solo es visible dentro del scope de la función, lo mismo sucede al querer mostrar en consola el valor de `name`. Cuando hacemos `user.name = 'Pato'` lo que estamos haciendo es definir una propiedad publica `name` para `user` y asginandole el valor `Pato`, pero la variable `name` que usa dentro de la función sigue guardando el valor `Mónica`.
 
 ## Propiedades publicas
 
@@ -48,4 +48,6 @@ user.firstName = 'Pato'
 console.log(user.firstName) // Muestra en consola el string 'Pato'
 ```
 
-> La función constructora `User` recibe como argumento una variable `name` y cuando es instanciada mediante la palabra `new` crea un nuevo objeto usuario que es asignado a la variable `user`. Este objeto tiene las propiedades publicas `firstName`, que se inicializa con el valor recibido en la variable `name` y `age` que es declarada dentro de la función. Al tratar de mostrar en consola el valor de `name`, vemos que nos devuelve undefined porque solo es visible dentro del scope de la función, pero cuando mostramos `firstName` o `age` nos muestra el valor porque son propiedades publicas. Esto también nos permite modificar el valor de `firstName` y asignarle un nuevo calor cambiandolo.
+> La función constructora `User` recibe como argumento una variable `name` y cuando es instanciada mediante la palabra `new` crea un nuevo objeto usuario que es asignado a la variable `user`. Este objeto tiene las propiedades publicas `firstName`, que se inicializa con el valor recibido en la variable `name` y `age` que es declarada dentro de la función. Al tratar de mostrar en consola el valor de `name`, vemos que nos devuelve `undefined` porque solo es visible dentro del scope de la función, pero cuando mostramos `firstName` o `age` nos muestra el valor porque son propiedades publicas. Esto también nos permite modificar el valor de `firstName` y asignarle el nuevo valor `Pato`, para luego mostrarlo en consola.
+
+[Siguiente tema](04_03_metodos_de_los_objetos.md)

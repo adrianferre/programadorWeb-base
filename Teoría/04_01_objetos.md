@@ -1,6 +1,6 @@
 # Objetos
 
-Los objetos en JavaScript se crean mediante funciones especiales llamadas constructoras que funcionan como las clases de lenguajes orientados a objetos. Estas funciones instancian nuevos objetos mediante la palabra reservada `new` que crea un nuevo objeto totalmente distinto a otra instancia del mismo, pero que comparte métodos y propiedades definidos en la función constructora.
+Los objetos en JavaScript se crean mediante funciones especiales llamadas constructoras que funcionan como las clases de lenguajes orientados a objetos. Se crean nuevos objetos al instanciarlos o crearlos mediante la palabra reservada `new` logrando un nuevo objeto totalmente distinto a otra instancia del mismo, pero que comparte métodos y propiedades definidos en la función constructora.
 
 ## Función constructora
 
@@ -24,4 +24,4 @@ user1 === user3 // Esto devuelve false, porque las instancias son distintas
 > La función constructora `User` recibe como argumento una variable `name` y cuando es instanciada mediante la palabra `new` crea un nuevo objeto usuario que es asignado a la variable `user1`, se repite este paso con `user2`y `user3`. Estos objetos no tiene ningún método, pero si tienen una propiedad privada que es la variable `name`. En el código creamos tres instancias de objetos `User`, usando la misma función constructora para comprobar que siempre crea objetos nuevosy distintos entre sí, sin embargo todos comparten los mismos métodos y propiedades.
 
 
-[Siguiente tema](04_02_propiedades_de_los_objetos)
+[Siguiente tema](04_02_propiedades_de_los_objetos.md)
