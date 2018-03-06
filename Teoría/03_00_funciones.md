@@ -27,9 +27,9 @@ function sayMyName(yourName) {
   console.log('Tu nombre es ' + yourName)
 }
 
-var myName = 'Monica'
+var myName = 'Mónica'
 
-sayMyName(myName) // Muestra en consola el string 'Tu nombre es Monica'
+sayMyName(myName) // Muestra en consola el string 'Tu nombre es Mónica'
 
 sayMyName('Heisenberg') // Muestra en consola el string 'Tu nombre es Heisenberg'
 
@@ -60,12 +60,12 @@ function message(firstName, lastName){
   return message
 }
 
-var text = message('Monica','Perez') // Calcula el mensaje y asigna el string 'Hola Monica Perez' a la variable text
+var text = message('Mónica','Perez') // Calcula el mensaje y asigna el string 'Hola Mónica Perez' a la variable text
 
-console.log(text) // Muestra en consola el string 'Hola Monica Perez'
+console.log(text) // Muestra en consola el string 'Hola Mónica Perez'
 ```
 
-> La función `message` recibe como argumentos `firstName` y `lastName` y devuelve un string con un mensaje de saludo, en este caso `Hola Monica Perez`.
+> La función `message` recibe como argumentos `firstName` y `lastName` y devuelve un string con un mensaje de saludo, en este caso `Hola Mónica Perez`.
 
 ### Funciones inmediatamente invocadas - IIFE
 
