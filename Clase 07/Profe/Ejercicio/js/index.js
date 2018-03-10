@@ -52,6 +52,6 @@ function addStudent (name) {
 }
 
 addStudent('Pato')
-addStudent('Pato')
-addStudent('Pato')
-addStudent('Ñato')
+// addStudent('Pato')
+// addStudent('Pato')
+// addStudent('Ñato')
