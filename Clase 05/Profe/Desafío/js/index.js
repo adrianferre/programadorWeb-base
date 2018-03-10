@@ -65,8 +65,14 @@ var matrix = new Movie('Matrix', '1999', 'Hermanas Wachowski', [
   'Keanu Reeves'
 ])
 
+matrix.showInfo()
+
 matrix.setActor('Carrie‑Anne Moss')
 
 matrix.setActor('Laurence Fishburne')
+
+var newActor = prompt('Ingresá un actor más')
+
+matrix.setActor(newActor)
 
 matrix.showInfo()
