@@ -9,5 +9,7 @@ var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','AN
 ```
 
 [JSON.parse](https://www.w3schools.com/js/js_json_parse.asp)
+
 [JSON.stringify](https://www.w3schools.com/js/js_json_stringify.asp)
+
 [localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
