@@ -1,18 +1,21 @@
-# Métodos String
+# Metodos String y Array
 
-- Lenght
-- IndexOf
-- ToLowerCase
-- ToUpperCase
-- Split
+1. Validación de tipo de valor mediante `typeof`
 
-# Métodos de arrays
+2. Métodos de Strings:
 
-- ToString
-- Push
-- Join
-- Splice
+   - `lenght`
+   - `indexOf`
+   - `toLowerCase`
+   - `toUpperCase`
+   - `split`
 
-- Sort
-- Reverse
-- Pop
+3. Validación de Array mediante `Array.isArray()`
+
+4. Métodos de Arrays
+
+   - `lenght`
+   - `toString`
+   - `push`
+   - `join`
+   - `splice`

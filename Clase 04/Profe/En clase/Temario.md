@@ -1,4 +1,2 @@
-# Funciones II
+# Workshop de repaso
 
-- IIFE - Función auto invocada o inmediatamente invocada
-- Hoisting

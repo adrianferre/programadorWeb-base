@@ -1,9 +1,9 @@
-# Controld de flujo
+# Control de flujo
 
-- Condicionales
+1. Condicionales
    - `ìf`
    - `switch`
-- Ciclos e iterciones
+2. Ciclos e iterciones
    - `for`
    - `while`
-- Sentencias break y continue
+3. Sentencias break y continue
