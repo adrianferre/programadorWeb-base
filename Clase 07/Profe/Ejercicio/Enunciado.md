@@ -2,7 +2,7 @@
 
 - La función tiene que poder guardar un nombre en mayúsculas en una lista tipo array almacenada en el localStorage. Se provee una lista inicial que podría estar cargada o no, la función tiene que poder verificarlo y no romper si la lista no existe.
 
-## Datos iniciales opcionales:
+### Datos iniciales opcionales:
 
 ```js 
 var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','ANTONIO','LORNA','JULIAN','DIEGO','DANIELA','JUAN','MATEO','BARBARA','AGUSTIN','MARIO','MARIEL','ANA','FLORENCIA']
