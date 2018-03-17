@@ -4,7 +4,7 @@
    - `Nombre` es un campo obligatorio.
    - `DNI` tiene que ser un número positivo y ser único (Que no coincida con ninguno ya agregado en la lista).
 
-- Deberá poder eliminar un alumno ingresando el número de DNI, en caso de que no exista mostrará el campo en rojo.
+- Deberá poder eliminar un alumno ingresando el número de DNI, en caso de que no exista no deberá borrarlo.
 
 - Todos los cambios tiene que quedar guardados en el LocalStorage, en el caso de que ya exista una lista guardada me la tiene que mostrar al inicio del programa.
 
