@@ -1,6 +1,6 @@
 # Crear una función para eliminar alumnos:
 
-- Una función que permite eliminar un alumno de una lista en el DOM buscando por nombre o apellido, si importar mayúsculas ni minúsculas y usando el número de id del alumno para eliminarlo.
+- Una función que permite eliminar un alumno de una lista en el DOM buscando por nombre o apellido, sin importar mayúsculas ni minúsculas y usando el número de id del alumno para eliminarlo.
 
 [Listas en HTML](https://www.w3schools.com/html/html_lists.asp)
 
