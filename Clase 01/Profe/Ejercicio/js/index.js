@@ -1,28 +1,28 @@
-// var name = prompt('Ingrese su nombre', 'Juan')
+var name = prompt('Ingrese su nombre', 'Juan')
 
-// console.log('Hola ' + name + '!')
+console.log('Hola ' + name + '!')
 
-// var savedValue = 10
+var savedValue = 10
 
-// var userValue = prompt('Ingrese un número', '10')
+var userValue = prompt('Ingrese un número')
 
-// var parsedUserValue = parseInt(userValue, 10)
+var parsedUserValue = parseInt(userValue, 10)
 
-// console.log('La suma es ', savedValue + parsedUserValue)
+console.log('La suma es ', savedValue + parsedUserValue)
 
-// var savedValue = 10
+var savedValue = 10
 
-// var userValue = prompt('Ingrese un número', '10')
+var userValue = prompt('Ingrese un número')
 
-// var parsedUserValue = parseInt(userValue, 10)
+var parsedUserValue = parseInt(userValue, 10)
 
-// console.log('La resta es ', savedValue - parsedUserValue)
+console.log('La resta es ', savedValue - parsedUserValue)
 
-var userValue1 = prompt('Ingrese el primer número', '10')
+var userValue1 = prompt('Ingrese el primer número')
 
 var parsedUserValue1 = parseInt(userValue1, 10)
 
-var userValue2 = prompt('Ingrese el segundo número', '10')
+var userValue2 = prompt('Ingrese el segundo número')
 
 var parsedUserValue2 = parseInt(userValue2, 10)
 
