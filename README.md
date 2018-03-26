@@ -1,6 +1,8 @@
 # Curso de Desarrollador Programador Web - Camada XXXX 💾
 
-## Este repositorio es una guía para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el número de la clase y adentro van a encontrar:
+## Apuntes y ejercicios
+
+Este repositorio es una guía para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el número de la clase y adentro van a encontrar:
 
 - Una carpeta **Profe** que va a contener todo lo que yo voy escribiendo en cada clase, separado a su vez en las siguientes carpetas:
 
@@ -18,7 +20,7 @@
 
 ## Teoría
 
-- El curso incluye documentación y videos dentro de la plataforma, también vamos a usar la documentación disponible en Internet, las mejores páginas para ver documentación sobre cosas de JavaScript son (w3schools)[https://www.w3schools.com/] y (MDN - Mozilla Developer Network)[https://developer.mozilla.org/es/], después también tienen la página de (jQuery)[https://jquery.com/] para la segunda parte del curso.
+El curso incluye documentación y videos dentro de la plataforma, pero también vamos a usar la documentación disponible en Internet, las mejores páginas para ver documentación sobre cosas de JavaScript son (w3schools)[https://www.w3schools.com/] y (MDN - Mozilla Developer Network)[https://developer.mozilla.org/es/], después también tienen la página de (jQuery)[https://jquery.com/] para la segunda parte del curso.
 
 ## Para poder trabajar cada uno en su maquina y mantenerse actualizados con lo que suba, la idea es que hagan un Fork de este repositorio siguiendo estos pasos:
 
