@@ -2,3 +2,9 @@
 .DS_Store
 /**/.DS_Store
 /node_modules
+
+# Para los profesores
+
+- Este repositorio cuenta con todas las clases del curso de Programador Web y se ira actualizando a medida que se definan el resto de las clases. En cada clase van a encontrar el temario, los enunciados de los ejercicios propuestos y también un ejemplo de la resolución de los mismos.
+- Los ejercicios están contemplados para que sean resueltos por el profe en al final de la clase luego de darles el tiempo a los alumnos para resolverlo, mientras que los desafíos están propuestos para empezarse en la clase y mostrar la resolución al comienzo de la clase siguiente.
+- Este repo también contiene un Readme que debe ser adaptado para cada curso, y que permite mediante una configuración ahí detallada lograr organizar el curso de manera tal de que los alumnos no precisen copiar lo que se haga en el proyector, así pueden prestar atención a la explicación y tengan un orden de cada clase así como también los temas vistos si faltan.

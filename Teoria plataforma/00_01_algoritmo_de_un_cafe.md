@@ -7,7 +7,6 @@
 - Café 250 ml.
 - Azúcar 3 cdas.
 - Una taza café.
-- Cucharita
 
 ## Preparación
 

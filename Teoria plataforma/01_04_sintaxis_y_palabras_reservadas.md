@@ -1,6 +1,6 @@
 # Sintaxis
 
-En JavaScript como en otros lenguajes de programación existe una sintaxis que es la forma para darle ordenes o instrucciones a la computadora. La sintaxis tiene palabras reservadas que vamos a ver en el siguiente tema, pero también un orden. Siempre los programas se leen de arriba hacia abajo y para poder usar un valor tiene que estar declarada antes y asignado.
+En JavaScript como en otros lenguajes de programación existe una sintaxis que es la forma para darle ordenes o instrucciones a la computadora. La sintaxis tiene palabras reservadas que vamos a ver en el siguiente tema, pero también un orden. Siempre los programas se leen de arriba hacia abajo y para poder usar un valor tiene que estar declarada antes.
 
 Un ejemplo de sintaxis en JavaScript es:
 
