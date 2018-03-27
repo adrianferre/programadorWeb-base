@@ -4,7 +4,7 @@
 
 [Ejemplo](https://www.useloom.com/share/34378875efea43f9ab69c275559c6bf3)
 
-*Documentación:*
+**Documentación:**
 
 - [parseInt](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt)
 
