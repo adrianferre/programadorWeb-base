@@ -2,11 +2,12 @@ var daysOfTheWeek = [
   'Lunes',
   'Martes',
   'Miércoles',
+  'Miercoles',
   'Jueves',
   'Viernes',
   'Sábado',
+  'Sabado',
   'Domingo',
-  'Domingó',
   'Pato'
 ]
 
@@ -16,14 +17,14 @@ for (var i = 0; i < daysOfTheWeek.length; i++) {
     case 'Lunes':
     case 'Martes':
     case 'Miércoles':
+    case 'Miercoles':
     case 'Jueves':
     case 'Viernes':
       console.log('El ' + dayOfTheWeek + ' es día de semana')
       break
     case 'Sábado':
+    case 'Sabado':
     case 'Domingo':
-    case 'domingo':
-    case 'Domingó':
       console.log('El ' + dayOfTheWeek + ' es fin de semana')
       break
     default:

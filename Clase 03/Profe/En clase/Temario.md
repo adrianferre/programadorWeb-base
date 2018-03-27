@@ -1,4 +1,4 @@
-# Funciones I
+# Funciones
 
 1. ¿Que es una función?
 2. Parámetros que recibe una función

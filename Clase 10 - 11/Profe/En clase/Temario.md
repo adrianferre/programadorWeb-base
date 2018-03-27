@@ -1,2 +1,0 @@
-# Repaso antes del Workshop
-

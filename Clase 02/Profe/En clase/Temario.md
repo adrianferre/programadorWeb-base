@@ -6,4 +6,7 @@
 2. Ciclos e iterciones
    - `for`
    - `while`
-3. Sentencias break y continue
+   - `do while`
+3. Sentencias
+   - `break`
+   - `continue`

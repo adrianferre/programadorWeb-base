@@ -16,5 +16,3 @@ switch (dayOfTheWeek) {
     console.log('Ingresaste cualquier cosa!')
     break
 }
-
-// console.log(5 / 0)

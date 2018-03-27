@@ -20,7 +20,6 @@ function askAndParse (order) {
   var number1 = prompt('Ingerese el ' + order + ' número')
   var parsedNumber1 = parseInt(number1, 10)
   while (isNaN(parsedNumber1)) {
-    console.log('Número erroneo')
     var number1 = prompt('Ingerese el ' + order + ' número')
     var parsedNumber1 = parseInt(number1, 10)
   }
