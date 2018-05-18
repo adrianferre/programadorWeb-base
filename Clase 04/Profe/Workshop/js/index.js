@@ -1,3 +1,5 @@
+// Datos de estudiantes para usar como carga incial
+
 var studentsList = [
   {
     firstName: 'Juan',
@@ -37,7 +39,14 @@ var studentsList = [
   }
 ]
 
-function searchStudentByText (text, studentsList) {
+/**
+ * Función que permite buscar la posición de un estudiante en el array,
+ * comparando nombre o apellido por valor exacto
+ * @param {String} text 
+ * @param {Array} studentsList 
+ */
+
+function searchStudentIndexByText (text, studentsList) {
   var index
   index = -1
   for (var i = 0; i < studentsList.length; i++) {
@@ -54,6 +63,11 @@ function searchStudentByText (text, studentsList) {
   }
 }
 
+/**
+ * Función muestra en consola todos los datos de un alumno de manera oredenada
+ * @param {Object} student 
+ */
+
 function showStudentDetail (student) {
   var fullName = student.firstName + ' ' + student.lastName
 
@@ -64,6 +78,11 @@ function showStudentDetail (student) {
   console.log(fullName + averageResult + dni)
 }
 
+/**
+ * Función que calcula el promedio en base a un Array de notas
+ * @param {Array} examResults 
+ */
+
 function averageExamResult (examResults) {
   var total = 0
   for (var i = 0; i < examResults.length; i++) {
@@ -73,6 +92,8 @@ function averageExamResult (examResults) {
 
   return total / examResults.length
 }
+
+// Petición de datos y uso de la función principal
 
 var text
 text = prompt('Ingrese un texto para buscar')

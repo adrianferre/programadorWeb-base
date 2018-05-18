@@ -1,13 +1,7 @@
-# Crear una calculadora
+# Maquetar el HTML y CSS de nuestro primer Workshop
 
-- Pedir un numero mediante `prompt`, luego otro, parsearlos y mostrar el resultado en consola de la suma, resta, multiplicación y división acompañado de un mensaje que indique la operación que se realizó. Ej: `La suma es 5`.
+- A lo largo de la primera etapa de este curso vamos a ir desarrollando una página para administrar una lista de alumnos, para eso precisamos empezar por maquetar los elementos de nuestro listado de alumnos como muestra el siguiente mockup.
 
-[Video ejemplo](https://www.useloom.com/share/34378875efea43f9ab69c275559c6bf3)
+[Mockup](mockup.png)
 
-**Documentación:**
-
-- [parseInt](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/parseInt)
-
-- [prompt](https://developer.mozilla.org/es/docs/Web/API/Window/prompt)
-
-- [console.log](https://developer.mozilla.org/es/docs/Web/API/Console/log)
+[Video ejemplo](https://www.useloom.com/share/737f633426a54478ac3e4bedca88e7a9)
