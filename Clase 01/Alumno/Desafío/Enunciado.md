@@ -4,4 +4,4 @@
 
 ![Mockup](mockup.png)
 
-[Video ejemplo](https://www.useloom.com/share/737f633426a54478ac3e4bedca88e7a9)
+[Video ejemplo primer Workshop](https://www.useloom.com/share/737f633426a54478ac3e4bedca88e7a9)
