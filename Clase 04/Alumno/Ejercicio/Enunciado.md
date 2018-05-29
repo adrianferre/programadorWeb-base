@@ -4,7 +4,9 @@
 
 - Debe recibir como parámetro un texto y un Array de alumnos y buscar dentro del Array por nombre o apellido, si lo encuentra deberá devolver la posición en el Array del alumno, en caso contrario `-1`. La función solo encuentra coincidencias exactas, por ejemplo encuentra `Fernandez`, pero no `Fer` o `fernandez`.
 
-[Video ejemplo](hhttps://www.useloom.com/share/3f040a320aa147509ae546ed7dee86b3)
+[Video ejemplo](https://www.useloom.com/share/3f040a320aa147509ae546ed7dee86b3)
+
+**Datos de prueba:**
 
 ```js
 var studentsList = [
