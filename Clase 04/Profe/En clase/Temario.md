@@ -1,4 +1,4 @@
-# Repaso Workshop I
+# Resolución de problemas
 
-- Repaso previo de cualquier tema visto hasta ahora
+- Repaso de todos los temas vistos hasta ahora, mediante la resolución de ejercicios con los alumnos
 

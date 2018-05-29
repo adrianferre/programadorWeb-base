@@ -23,10 +23,9 @@
 - 3.3	Valor de retorno de una función
 - 3.4	Scope global y scope local
 
-# 4 Workshop I
+# 4 Resolución de problemas
 	
-- 4.1	Repaso de todos los temas vistos hasta ahora
-- 4.2 Ejecución del Workshop I de repaso
+- 4.1	Repaso de todos los temas vistos hasta ahora, mediante la resolución de ejercicios con los alumnos
 	
 # 5 Objetos
 	
@@ -67,15 +66,15 @@
 - 9.4	Evento onclick
 - 9.5	Evento onblur
 
-# 10 Workshop II
+# 10 Workshop I
 	
 - 10.1 Repaso de todos los temas vistos hasta ahora
-- 10.2 Comienzo del Workshop II durante la clase
+- 10.2 Comienzo del Workshop I durante la clase
 
-# 11 Workshop II
+# 11 Workshop I
 	
 - 11.1 Repaso de todos los temas vistos hasta ahora
-- 11.2 Finalización del Workshop II durante la clase
+- 11.2 Finalización del Workshop I durante la clase
 
 # 12 JQuery
 
@@ -109,12 +108,12 @@
 - 16.2 ¿Qué son los métodos HTTP GET, POST, PUT y DELETE?
 - 16.3 AJAX
 
-# 17 Workshop III
+# 17 Workshop II
 
 - 17.1 Repaso de todos los temas vistos durante el curso
-- 17.2 Comienzo del Workshop III durante la clase
+- 17.2 Comienzo del Workshop II durante la clase
 
-# 18 Workshop III
+# 18 Workshop II
 
 - 18.1 Repaso de todos los temas vistos durante el curso
-- 18.2 Finalización del Workshop III durante la clase
+- 18.2 Finalización del Workshop II durante la clase

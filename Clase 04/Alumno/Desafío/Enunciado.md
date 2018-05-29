@@ -13,26 +13,22 @@ var studentsList = [
   {
     firstName: 'Juan',
     lastName: 'Pérez',
-    dni: 45678987,
-    examResults: [ 7, 5, 6, 4, 3, 2, 8 ]
+    dni: 45678987
   },
   {
     firstName: 'Ana',
     lastName: 'Fernandez',
-    dni: 45678989,
-    examResults: [ 3, 4, 5, 6, 7, 3, 4, 5 ]
+    dni: 45678989
   },
   {
     firstName: 'Pedro',
     lastName: 'Mármol',
-    dni: 45678956,
-    examResults: [ 3, 8, 7, 5, 6, 4, 5, 4, 3 ]
+    dni: 45678956
   },
   {
-    firstName: 'Daniela',
-    lastName: 'Hernandez',
-    dni: 45678983,
-    examResults: [ 10, 8, 9, 7, 8, 7, 10 ]
+    firstName: 'Pablo',
+    lastName: 'Picapiedras',
+    dni: 45678983
   }
 ]
 ```
