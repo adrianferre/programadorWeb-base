@@ -25,7 +25,7 @@
 
 # 4 Resolución de problemas
 	
-- 4.1	Repaso de todos los temas vistos hasta ahora, mediante la resolución de ejercicios con los alumnos
+- 4.1	Repaso de todos los temas vistos hasta ahora, mediante la resolución de ejercicios modelo con los alumnos
 	
 # 5 Objetos
 	
