@@ -8,7 +8,7 @@
 
 - Pedir un numero mediante `prompt`, luego otro, parsearlos y sumarlos, luego mostrar el resultado en consola.
 
-[Video ejemplo](https://www.useloom.com/share/34378875efea43f9ab69c275559c6bf3)
+[Video ejemplo](https://www.useloom.com/share/99b090e54cf0448289aa077b096a69cc)
 
 **Documentación:**
 

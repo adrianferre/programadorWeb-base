@@ -10,7 +10,7 @@
 - La función debe:
 
    - Pedir la operación a realizar.
-   - Pedir el primer parámetro y pedir el segundo, en caso de haber elegido división y cero volver a pedirlo hasta que ingrese un numero distinto de cero.
+   - Pedir el primer parámetro y pedir el segundo, en caso de haber elegido división y cero volver a pedir el segundo parámetro hasta que ingrese un numero distinto de cero.
    - Usar las funciones del punto anterior para calcular el resultado según corresponda y mostrar en pantalla el mismo.
 
 [Video ejemplo](https://www.useloom.com/share/fa6e9529e01d427d89c84e414fb3bde0)

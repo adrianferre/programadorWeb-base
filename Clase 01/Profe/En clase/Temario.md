@@ -5,7 +5,7 @@
 3. Incluir JavaScript en nuestro archivo
 4. Sintaxis y palabras reservadas
 5. Variables
-   - 'var'
+   - `var`
 6. Tipos de valores
    - Boolean
    - Number
@@ -18,6 +18,7 @@
    - `-`
    - `*`
    - `/`
+   - `%`
 8. Operadores de comparación
    - `===`
    - `!==`
@@ -25,7 +26,3 @@
    - `>`
    - `>=`
    - `<=`
-9. Operadores lógicos
-   - `!`
-   - `&&`
-   - `||`

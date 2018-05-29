@@ -6,7 +6,9 @@
 
 # Crear un función que muestre el tipo de día en consola
 
-- La función tiene que recibir como parámetro un día de la semana y mostrar en consola `Es día hábil`, `Es día de fin de semana` u `No es un día valido` según corresponda. Pedirle al usuario que ingrese un día tres veces y llamar a la función cada vez para mostrar el resultado en consola. La función tiene que poder reconocer los días con y sin tilde.
+- La función tiene que recibir como parámetro un día de la semana y mostrar en consola `Es día hábil`, `Es día de fin de semana` o `No es un día valido` según corresponda. Pedirle al usuario que ingrese un día tres veces y llamar a la función cada vez para mostrar el resultado en consola.
+
+Extra: La función tiene que poder reconocer los días con y sin tilde.
 
 [Video ejemplo](https://www.useloom.com/share/a54081c0ac8e418d8f05eb56b7007ae9)
 
