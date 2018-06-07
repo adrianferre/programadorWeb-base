@@ -1,23 +1,8 @@
-# Crear un programa que muestre si un día es fin de semana
+# Crear un programa que muestre un mensaje personalizado
 
-- Usando el Array de ejemplo como dato inicial crear un programa que lo recorra e identifique si el día es fin de semana, día hábil o no es un día valido. El programa tiene que poder reconocer los días con y sin tilde.
+- Pedir al usuario mediante `prompt` que ingrese su género y luego su edad. Luego mostrar un mensaje en consola que diga `Sr.`, `Sra.` o `Sx.`según corresponda y que también evalue si es mayor de edad o no al momento de construir el mensaje.
 
-```js
-var daysOfTheWeek = [
-  'Lunes',
-  'Martes',
-  'Miércoles',
-  'Miercoles',
-  'Jueves',
-  'Viernes',
-  'Sábado',
-  'Sabado',
-  'Domingo',
-  'Pato'
-]
-```
-
-[Video ejemplo](https://www.useloom.com/share/286603f6cc02472082db5809b974c86f)
+Por ejemplo si el usuario ingresa `male` y `16`, el mensaje debería ser `Sr. usted es menor de edad no puede ingresar`, si ingresa `female` y `34`el mensaje sería `Sra. usted es mayor de edad puede ingresar`.
 
 **Documentación:**
 
@@ -25,6 +10,4 @@ var daysOfTheWeek = [
 
 - [console.log](https://developer.mozilla.org/es/docs/Web/API/Console/log)
 
-- [switch](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/switch)
-
-- [for](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for)
+- [if](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)

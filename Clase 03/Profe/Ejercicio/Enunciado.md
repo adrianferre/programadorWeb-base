@@ -1,19 +1,26 @@
-# Crear una función que muestre nombre y apellido en consola
+# Crear un programa que muestre si un día es fin de semana
 
-- La función debe pedirle al usuario el nombre y el apellido y mostrar ambos en consola, junto con un saludo. Ej: `Hola Juan Perez`, llamar a la función para probarla.
+- Usando el Array de ejemplo como dato inicial crear un programa que lo recorra e identifique si el día es fin de semana, día hábil o no es un día valido. El programa tiene que poder reconocer los días con y sin tilde.
 
-[Video ejemplo](https://www.useloom.com/share/468816a9d4c24fd9b3cff30796b454f0)
+```js
+var daysOfTheWeek = [
+  'Lunes',
+  'Martes',
+  'Miércoles',
+  'Miercoles',
+  'Jueves',
+  'Viernes',
+  'Sábado',
+  'Sabado',
+  'Domingo',
+  'Pato'
+]
+```
 
-# Crear un función que muestre el tipo de día en consola
-
-- La función tiene que recibir como parámetro un día de la semana y mostrar en consola `Es día hábil`, `Es día de fin de semana` o `No es un día valido` según corresponda. Pedirle al usuario que ingrese un día tres veces y llamar a la función cada vez para mostrar el resultado en consola.
-
-Extra: La función tiene que poder reconocer los días con y sin tilde.
-
-[Video ejemplo](https://www.useloom.com/share/a54081c0ac8e418d8f05eb56b7007ae9)
+[Video ejemplo](https://www.useloom.com/share/286603f6cc02472082db5809b974c86f)
 
 **Documentación:**
 
-[function](https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Funciones)
+- [for](https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Sentencias/for)
 
 

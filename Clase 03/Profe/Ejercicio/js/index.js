@@ -1,48 +1,42 @@
-// Ejercicio 1
+// Array inicial con los días de la semana
+var daysOfTheWeek = [
+  'Lunes',
+  'Martes',
+  'Miércoles',
+  'Miercoles',
+  'Jueves',
+  'Viernes',
+  'Sábado',
+  'Sabado',
+  'Domingo',
+  'Pato'
+]
 
-// function showMessage () {
-//   var firstName
-//   var lastName
+// Creo una variable para guardar el mensaje según el caso elegido por el usuario
+var message
 
-//   firstName = prompt('Ingresa tu nombre')
-//   lastName = prompt('Ingresa tu apellido')
+// Uso un ciclo for para recorrer el Array y evaluar cada día de la semana
+for (var i = 0; i < daysOfTheWeek.length; i++) {
+  var day = daysOfTheWeek[i]
 
-//   console.log('Hola ' + firstName + ' ' + lastName)
-// }
-
-// showMessage()
-
-// Ejercicio 2
-
-function dayOfTheWeekMessage (dayOfTheWeek) {
-  switch (dayOfTheWeek) {
+  // Comparo cada día del Array con todos los casos posibles
+  switch (day) {
     case 'Lunes':
     case 'Martes':
     case 'Miércoles':
-    case 'Miercoles':
     case 'Jueves':
     case 'Viernes':
-      console.log('El ' + dayOfTheWeek + ' es día de semana')
+      message = 'Es un día habíl'
       break
     case 'Sábado':
-    case 'Sabado':
     case 'Domingo':
-      console.log('El ' + dayOfTheWeek + ' es fin de semana')
+      message = 'Es día de fin de semana'
       break
     default:
-      console.log(dayOfTheWeek + ' es un valor invalido')
+      message = 'Ingresaste cualquier cosa!'
       break
   }
 }
 
-var day1
-day1 = prompt('Ingrese un día')
-dayOfTheWeekMessage(day1)
-
-var day2
-day2 = prompt('Ingrese un día')
-dayOfTheWeekMessage(day2)
-
-var day3
-day3 = prompt('Ingrese un día')
-dayOfTheWeekMessage(day3)
+// Muestro en consola el mensaje según el caso con el que coincidió
+console.log(message)

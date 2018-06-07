@@ -1,8 +1,18 @@
-# Funciones
+# 3 Ciclos e iteraciónes
 
-1. ¿Que es una función?
-2. Parámetros que recibe una función
-3. Valores de retorno de una función
-4. Scope global y scope local
+- 3.0 Repaso de Git y GitHub
+  - `git add .`
+  - `git commit -m "Mensaje"`
+  - `git push`
+  - `git pull`
+  - `git pull <repo> <branch>`
+  - ¿Como solucionar conflictos?
 
+- 3.1 Ciclos
+   - `while`
+   - `do while`
+   - `for`
 
+- 3.2 Sentencias
+   - `break`
+   - `continue`

@@ -1,72 +1,42 @@
-askOperation()
+// Pido la opración a realizar
+var operation = prompt('Ingrese la operación a realizar, sum, res, mul o div')
 
-function sum (number1, number2) {
-  return number1 + number2
+// Pido el primer número
+var number1 = prompt('Ingerese el primer número')
+var parsedNumber1 = parseFloat(number1, 10)
+
+// Pido el segundo número al menos una vez, si la operación es división
+// e ingreso cero lo pido de nuevo
+do {
+  var number2 = prompt('Ingerese el segundo número')
+  var parsedNumber2 = parseFloat(number2, 10)
+} while (operation === 'div' && parsedNumber2 === 0)
+
+// Creo una variable para guardar el resultado
+var result
+
+// Comparo la operación elegida por el usuario para calcular el resultado
+switch (operation) {
+  case 'sum':
+    result = parsedNumber1 + parsedNumber2
+    break
+  case 'res':
+    result = parsedNumber1 - parsedNumber2
+    break
+  case 'mul':
+    result = parsedNumber1 * parsedNumber2
+    break
+  case 'div':
+    result = parsedNumber1 / parsedNumber2
+    break
+  default:
+    result = 'Operación incorrecta'
+    break
 }
 
-function res (number1, number2) {
-  return number1 - umber2
-}
+// Creo una variable donde voy a guardar el mensaje
+// que muestro como resultado de la operación
+var menssage = 'El resultado de la ' + operation + ' es: ' + result
 
-function mul (number1, number2) {
-  return number1 * number2
-}
-
-function div (number1, number2) {
-  return number1 / number2
-}
-
-function askAndParse (order) {
-  var number1 = prompt('Ingerese el ' + order + ' número')
-  var parsedNumber1 = parseInt(number1, 10)
-  while (isNaN(parsedNumber1)) {
-    var number1 = prompt('Ingerese el ' + order + ' número')
-    var parsedNumber1 = parseInt(number1, 10)
-  }
-  return parsedNumber1
-}
-
-function askOperation () {
-  var operation = prompt('Ingrese la operación a realizar, sum, res, mul o div')
-  var result
-  switch (operation) {
-    case 'sum':
-      var number1 = askAndParse('primer')
-      var number2 = askAndParse('segundo')
-      result = sum(number1, number2)
-      showResult(operation, result)
-      break
-    case 'res':
-      var number1 = askAndParse('primer')
-      var number2 = askAndParse('segundo')
-      result = res(number1, number2)
-      showResult(operation, result)
-      break
-    case 'mul':
-      var number1 = askAndParse('primer')
-      var number2 = askAndParse('segundo')
-      result = mul(number1, number2)
-      showResult(operation, result)
-      break
-    case 'div':
-      var number1 = askAndParse('primer')
-      do {
-        var number2 = askAndParse('segundo')
-      } while (number2 === 0)
-
-      result = div(number1, number2)
-      showResult(operation, result)
-      break
-    default:
-      showError(operation)
-      break
-  }
-}
-
-function showResult (operation, result) {
-  console.log('El resultado de la ' + operation + ' es: ' + result)
-}
-
-function showError (operation) {
-  console.log(operation + ' no es una operación valida')
-}
+// Muestro el mensaje en consola
+console.log(menssage)

@@ -1,28 +1,25 @@
-# Sintaxis y variables
+# 1 Sintaxis y variables
 
-1. ¿Qué es un algoritmo?
-2. ¿Qué es JavaScript? 
-3. Incluir JavaScript en nuestro archivo
-4. Sintaxis y palabras reservadas
-5. Variables
+- 1.1 ¿Qué es un algoritmo?
+- 1.2 ¿Qué es JavaScript? 
+- 1.3 Incluir JavaScript en nuestro archivo
+- 1.4 Sintaxis y palabras reservadas
+- 1.5 Variables
    - `var`
-6. Tipos de valores
+- 1.6 Tipos de valores
    - Boolean
    - Number
    - String
    - null / undefined
    - Array
    - Object
-7. Operadores aritméticos
+- 1.7 Operadores aritméticos
    - `+`
    - `-`
    - `*`
    - `/`
    - `%`
-8. Operadores de comparación
-   - `===`
-   - `!==`
-   - `<`
-   - `>`
-   - `>=`
-   - `<=`
+- 1.8 Web API's y funciones de alto nivel útiles
+   - `prompt()`
+   - `console.log()`
+   - `parseInt()`
