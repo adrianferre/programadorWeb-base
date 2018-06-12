@@ -7,7 +7,7 @@
       - `dni`
       - `email`
     - Privadas:
-      - `id` generada automáticamente al crear el objeto.
+      - `id` generada automáticamente al crear el objeto (en este caso se puede usar el dni).
 - El objeto deberá tener las siguientes métodos:
    - Públicos:
      - `getId` deberá devolver el `id` del objeto
@@ -37,12 +37,6 @@ var students = [
     email: 'pedro@gmail.com'
   }
 ]
-```
-
-> Existe una función que devuelve un número random que nos puede servir para hacer un id único.
-
-```js
-var time = Math.random() // Esto devuelve un número del estilo 0.11296860298890499
 ```
 
 **Documentación:**

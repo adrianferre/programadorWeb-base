@@ -37,7 +37,7 @@ var cars = [
 > Existe una función que devuelve un número random que nos puede servir para hacer un id único.
 
 ```js
-var time = Math.random() // Esto devuelve un número del estilo 0.11296860298890499
+var randomNumber = Math.random() // Esto devuelve un número del estilo 0.11296860298890499
 ```
 
 **Documentación:**
