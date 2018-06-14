@@ -1,4 +1,4 @@
-# 6 Metodos de String y Array
+# 6 Métodos de String y Array
 	
 - 6.1	Validación de tipo de valor mediante `typeof`
 - 6.2	Métodos de String
@@ -13,5 +13,6 @@
    - `toString`
    - `push`
    - `join`
+   - `slice`
    - `splice`
    - `sort`
