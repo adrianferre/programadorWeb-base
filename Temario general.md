@@ -48,8 +48,7 @@
 	
 - 7.1	¿Qué es el sesionStorage y el localStorage?
 - 7.2	¿Qué es un JSON?
-- 7.3	JSON.stringify()
-- 7.4	JSON.parse()
+- 7.3	`JSON.stringify()` y `JSON.parse()`
 
 # 8 DOM [Modulo B]
 	

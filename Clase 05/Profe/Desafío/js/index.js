@@ -9,7 +9,6 @@ var oldStudents = [
   },
   {
     firstName: 'Ana',
-    lastName: 'Fernandez',
     dni: 45678989,
     email: 'ana@gmail.com'
   },
@@ -38,16 +37,20 @@ function Student (firstName, lastName, dni, email) {
     return id
   }
 
+  // var name = firstName || 'default'
+
   this.getFullName = function () {
-    if (this.firstName && this.lastName) {
-      return this.firstName + this.lastName
-    } else if (this.firstName && !this.lastName) {
-      return this.firstName
-    } else if (!this.firstName && this.lastName) {
-      return this.lastName
-    } else {
-      return ''
-    }
+    return (this.firstName || '') + ' ' + (this.lastName || '')
+
+    // if (this.firstName && this.lastName) {
+    //   return this.firstName + ' ' + this.lastName
+    // } else if (this.firstName && !this.lastName) {
+    //   return this.firstName
+    // } else if (!this.firstName && this.lastName) {
+    //   return this.lastName
+    // } else {
+    //   return ''
+    // }
   }
 }
 

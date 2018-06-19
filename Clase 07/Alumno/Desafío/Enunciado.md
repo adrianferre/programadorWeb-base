@@ -1,39 +1,11 @@
-# Crear una función que permita eliminar alumno del localStorage
+## Crea una función que permita levantar una lista del localStorage
 
-- Descripción
-
-[Video ejemplo]()
-
-**Datos de prueba:**
-
-```js
-
-```
-
-> Notas
-
-```js
-
-```
-
-**Documentación:**
-
-[]()
-
-## Crea una función que permita eliminar un nombre de una lista en el localStorage
-
-- La función tiene que poder buscar y eliminar un alumno en una lista tipo Array almacenada en el localStorage. Se provee una lista inicial que podría estar cargada o no, la función tiene que poder verificarlo y no romper si la lista no existe.
-
-- Datos iniciales opcionales:
+- La función tiene que recibir como parámetro una key y buscar en el localStorage por esa key devolviendo un objeto de JavaScript, si no existe el elemento debe devolver un Array vacío. La función tiene que validar los parámetros que recibe, en caso de que alguno sea incorrecto no debe romper ni borrar nada.
 
 ```js 
-var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','ANTONIO','LORNA','JULIAN','DIEGO','DANIELA','JUAN','MATEO','BARBARA','AGUSTIN','MARIO','MARIEL','ANA','FLORENCIA']
+var studentsList = getLocalList('studentsList') // Debe devolver siempre un Array [] vacío o con elementos [...]
 ```
 
 [JSON.parse](https://www.w3schools.com/js/js_json_parse.asp)
 
-[JSON.stringify](https://www.w3schools.com/js/js_json_stringify.asp)
-
 [localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
-
-[splice](https://www.w3schools.com/jsref/jsref_splice.asp)

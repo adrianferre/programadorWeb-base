@@ -1,0 +1,3 @@
+# ¿Qué es un JSON?
+
+- JSON (JavaScript Object Notation) es una forma de escribir objetos de JavaScript y sus propiedades como texto plano, esto significa que aunque contengan los valores de un objeto de JavaScript no poseen por ejemplo sus métodos. Al transformar los objetos de JavaScript a JSON vamos a poder almacenarlos y compartirlos mediante cualquier sistemas que permita almacenar texto, para luego volverlos a convertir a JavaScript y así usarlos en nuestro código. Los dos casos de uso que vamos a ver son para poder almacenar datos en el SessionStrage o LocalStorage y el otro caso es para enviar o recibir data de servidores, actualmente es el formato standard para las comunicaciones.

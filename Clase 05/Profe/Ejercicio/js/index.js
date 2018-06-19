@@ -20,18 +20,18 @@ var oldCars = [
 
 // Función constructora
 
-function Car (model, brand, year) {
+function Car (_model, _brand, _year) {
   // Propiedades privadas
-  var id = Math.random()
+  var _id = Math.random()
 
   // Propiedades públicas
-  this.model = model
-  this.brand = brand
-  this.year = year
+  this.model = _model
+  this.brand = _brand
+  this.year = _year
 
   // Métodos públicos
   this.getCarName = function () {
-    return this.model + this.brand + this.year
+    return this.model + ' ' + this.brand + ' ' + this.year
   }
 }
 
@@ -39,6 +39,15 @@ var oldCar
 
 var newCar
 var newCars = []
+
+// newCar = new Car('Twing', 'Renault', 2000)
+
+// console.log(newCar.getCarName())
+
+// newCar.model = 'Pato'
+// newCar.brand = 'Ford'
+
+// console.log(newCar.getCarName())
 
 // Lleno un nuevo Array con los objetos creados con la función Car
 for (var i = 0; i < oldCars.length; i++) {
@@ -49,3 +58,4 @@ for (var i = 0; i < oldCars.length; i++) {
 
 console.log(oldCars)
 console.log(newCars)
+console.log(newCars[0].getCarName())
