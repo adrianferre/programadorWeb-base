@@ -52,11 +52,11 @@
 
 # 8 DOM [Modulo B]
 	
-- 7.1	¿Qué es el árbol de nodos? 
-- 7.2	Objeto `document`
-- 7.3	Acceso a los nodos
-- 7.3	Crear y eliminar nodos
-- 7.4	Propiedades de los nodos
+- 8.1	¿Qué es el árbol de nodos? 
+- 8.2	Objeto `document`
+- 8.3	Acceso a los nodos
+- 8.4	Crear y eliminar nodos
+- 8.5	Propiedades de los nodos
 
 # 9 Eventos [Modulo B]
 	

@@ -6,9 +6,9 @@
 **Datos de prueba:**
 
 ```js 
-var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','ANTONIO','LORNA','JULIAN','DIEGO','DANIELA','JUAN','MATEO','BARBARA','AGUSTIN','MARIO','MARIEL','ANA','FLORENCIA']
+var testList = ['CARLOS','GERONIMO','NICOLAS','LUCAS']
 
-saveLocalList(studentsList) // Guarda la lista en el localStorage en formato JSON
+setLocalList('studentsList', testList) // Guarda la lista en el localStorage en formato JSON
 ```
 
 **Documentación:**

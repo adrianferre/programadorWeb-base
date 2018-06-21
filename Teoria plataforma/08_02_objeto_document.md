@@ -1,0 +1,3 @@
+# Objeto document
+
+- El árbol de nodos comienza en un objeto o nodo principal llamado `document`, es a partir de este nodo que vamos a acceder y a manipular todos los otros. El objeto `document` es de alto nivel, como lo es el `Array` o el `JSON` por lo cual la forma de emplear sus métodos es similar al igual que antes hacíamos `JSON.stringify()`, ahora usaremos métodos como `document.getElementById()`.
