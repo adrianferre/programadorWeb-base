@@ -17,6 +17,18 @@ document.getElementById('title').id = 'pato'
 > En el código vemos tanto como acceder al valor de la propiedad Id, así como modificarlo. El resultado final es que el HTML queda asi -> `<h1 id="pato"></h1>`
 
 
+
+```html
+<li id="list-item"></li>
+```
+
+```js
+document.getElementById('text-input').className = 'list-group-item'
+```
+
+> En el código vemos como asigna la clase `list-group-item` el nodo `<li>`, esta clase se va agregar a otras que se encuentren en el nodo. El elemento quedaría así -> `<li id="list-item" class="list-group-item"></li>`
+
+
 ```html
 <input type="text" id="text-input">
 ```
