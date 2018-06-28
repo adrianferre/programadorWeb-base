@@ -34,8 +34,6 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 
 [Listas de Bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/)
 
----
-
 ## Segunda parte
 
 - El formulario deberá también incluir los siguientes campos y validarlos:
