@@ -1,0 +1,3 @@
+# ¿Que son los eventos y para qué sirven?
+
+Los eventos son notificaciones activadas por interacciones del usuario, el render del dom o eventos programados. Al suscribirnos a ciertos eventos como un click en un botón o la modificación de un input vamos a poder generar páginas que vayan respondiendo a estos y generando distintos flujos en nuestra aplicación. Existen dos formas de suscribirse a los eventos, como atributo en el HTML o semántica.
