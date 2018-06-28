@@ -1,0 +1,15 @@
+Title: Baja estudiante
+participant Usuario
+participant Formulario
+participant App
+App->LocalStorage: Pide datos iniciales
+LocalStorage-->App: Recibe datos si los hay
+Usuario->Formulario: Ingresa DNI
+Formulario->App: Busca DNI
+App-->Formulario: Avísa si hay DNI
+Note over Formulario: Habilita botón
+Formulario-->Usuario: Muestra validación
+Usuario->Formulario: Apreta botón eliminar
+Formulario->App: Envía DNI
+App->Lista HTML: Elimna el nodo
+App->LocalStorage: Actualiza los cambios

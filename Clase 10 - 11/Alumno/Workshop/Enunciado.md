@@ -31,7 +31,7 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 
 [Listas de Bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/)
 
-Diagramas provistos en esta misma carpeta mostrando el flujo de alta y baja
+Diagramas provistos en esta misma carpeta mostrando los flujos de `AltaEstudiante` y `BajaEstudiante`
 
 ## Segunda parte
 
@@ -54,6 +54,6 @@ Diagramas provistos en esta misma carpeta mostrando el flujo de alta y baja
 
 [Listas de Bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/)
 
-Diagrama provisto en esta misma carpeta mostrando el flujo de búsqueda
+Diagrama provisto en esta misma carpeta mostrando el flujo `BúsquedaEstudiante`
 
 

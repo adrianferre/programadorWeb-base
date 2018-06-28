@@ -1,0 +1,14 @@
+Title: Búsqueda estudiante
+participant Usuario
+participant Formulario
+participant App
+App->LocalStorage: Pide datos iniciales
+LocalStorage-->App: Recibe datos si los hay
+Usuario->Formulario: Ingresa nombre o apellido
+Usuario->Formulario: Apreta botón buscar
+Formulario->App: Envía texto
+App->Lista HTML: Limpia la lista
+App->Lista HTML: Agrega el nodo
+
+
+
