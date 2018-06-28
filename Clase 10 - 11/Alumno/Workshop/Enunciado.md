@@ -24,7 +24,6 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 **Piezas a utilizar:**
 
 - HTML -> Desafío clase 01
-- Función `searchStudentIndexByText` -> Desafío clase 04
 - Función constructora `Student` -> Desafío clase 05
 - Función `setLocalList` -> Ejercicio clase 07
 - Función `getLocalList` -> Desafío clase 07
@@ -47,6 +46,7 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 
 **Piezas a utilizar:**
 
+- Función `searchStudentIndexByText` -> Desafío clase 04
 - Función `includesText` -> Desafío clase 06
 - Función `validateEmailField` -> Desafío clase 09
 
