@@ -1,23 +1,21 @@
 # Realizar un programa de alta y baja de alumnos
 
-Durante nuestro primer Workshop vamos a realizar un programa que nos permita gestionar una lista de alumnos de forma local en nuestro navegador, alta y baja de alumnos. Para esto vamos a emplear todo los temas que vimos hasta ahora y especialmente las funciones que fuimos realizando y estaban marcadas como parte del Workshop I. Los requisitos que deberá cumplir nuestro programa son los siguientes:
+Durante nuestro primer Workshop vamos a realizar un programa que nos permita gestionar una lista de alumnos de forma local en nuestro navegador, agregar y eliminar. Para esto vamos a emplear todo los temas que vimos hasta ahora y especialmente las funciones que fuimos realizando y estaban marcadas como parte del Workshop I. Los requisitos que deberá cumplir nuestro programa son los siguientes:
 
 ## Primera parte
 
-1. Deberá tener un formulario que incluya los siguientes campos y los valide, en caso de que alguno no cumpla deberá mostrar un error y no permitir agregar el alumno a la lista hasta que se corrija:
+1. Deberá tener un formulario que incluya los siguientes campos y los valide, en caso de que alguno no cumpla deberá mostrar un error y no permitir agregar el alumno hasta que se corrija:
 
    1. `Nombre` es un campo obligatorio.
    2. `DNI` tiene que ser un número positivo y ser único (Que no coincida con ninguno ya agregado en la lista).
 
-2. Deberá poder eliminar un alumno ingresando el número de DNI, en caso de que no exista no deberá permitir borrarlo.
+2. Deberá poder eliminar un alumno ingresando el número de DNI, en caso de que no exista no borra nada.
 
 3. Todos los cambios tienen que quedar guardados en el LocalStorage, en el caso de que ya existan alumnos guardados los tiene que mostrar al inicio del programa.
 
-4. Deberá mostrar siempre una lista con los alumnos cargados en el sistema que tendrá que ser actualizada en cada cambio.
+4. Deberá mostrar siempre una lista en pantalla con los alumnos cargados en el sistema que tendrá que ser actualizada en cada cambio.
 
 [Video ejemplo](https://www.useloom.com/share/737f633426a54478ac3e4bedca88e7a9)
-
-> Si usamos Boostrap podemos mostrar que el campo es valido agregando la clase `is-valid` y mostrar que es invalido agregando la clase `is-invalid`. 
 
 > Para deshabilitar el botón hay que poner en `true` la propiedad `disabled` en el botón y para habilitarlo hay que cambiarla a `false`. Ej: `document.getElementById('myButton').disabled = true`.
 
@@ -32,6 +30,8 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 **Documentación:**
 
 [Listas de Bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/)
+
+Diagramas provistos en esta misma carpeta mostrando el flujo de alta y baja
 
 ## Segunda parte
 
@@ -53,5 +53,7 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 **Documentación:**
 
 [Listas de Bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/)
+
+Diagrama provisto en esta misma carpeta mostrando el flujo de búsqueda
 
 
