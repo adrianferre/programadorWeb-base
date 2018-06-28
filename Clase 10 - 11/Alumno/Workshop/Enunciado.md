@@ -1,14 +1,19 @@
-# Realizar un programa de alta y baja de alumnos [Primera parte]:
+# Realizar un programa de alta y baja de alumnos
 
 Durante nuestro primer Workshop vamos a realizar un programa que nos permita gestionar una lista de alumnos de forma local en nuestro navegador, alta y baja de alumnos. Para esto vamos a emplear todo los temas que vimos hasta ahora y especialmente las funciones que fuimos realizando y estaban marcadas como parte del Workshop I. Los requisitos que deberá cumplir nuestro programa son los siguientes:
 
+## Primera parte
+
 - Deberá tener un formulario para agregar un alumno pidiendo y validando los siguientes datos, en caso de que alguno no cumpla deberá mostrar un error y no permitir agregarlo a la lista hasta que se corrija:
+
    - `Nombre` es un campo obligatorio.
    - `DNI` tiene que ser un número positivo y ser único (Que no coincida con ninguno ya agregado en la lista).
 
 - Deberá poder eliminar un alumno ingresando el número de DNI, en caso de que no exista no deberá permitir borrarlo.
 
 - Todos los cambios tienen que quedar guardados en el LocalStorage, en el caso de que ya existan alumnos guardados los tiene que mostrar al inicio del programa.
+
+- Deberá mostrar siempre una lista con los alumnos cargados en el sistema que tendrá que ser actualizada en cada cambio.
 
 [Video ejemplo](https://www.useloom.com/share/737f633426a54478ac3e4bedca88e7a9)
 
@@ -22,13 +27,13 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 
 **Documentación:**
 
-[]()
+[Listas de Bootstrap](https://getbootstrap.com/docs/4.1/components/list-group/)
 
 ---
 
-# Realizar un programa de alta y baja de alumnos [Segunda parte]:
+## Segunda parte
 
-- Deberá también pedir los siguientes campos y validarlos:
+- El formulario deberá también incluir los siguientes campos y validarlos:
 
    - `Apellido` es un campo opcional.
    - `Email` es un campo obligatorio y tiene que tener al menos un `@` y un `.`.
