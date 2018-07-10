@@ -76,24 +76,23 @@
 - 11.1 Repaso de todos los temas vistos hasta ahora
 - 11.2 Finalización del Workshop I durante la clase
 
-# 12 JQuery [Modulo C]
+# 12 Equivalencias en jQuery [Modulo C]
 
-- 12.1 ¿Qué es jQuery?
-- 12.2 ¿Para que sirve?
-- 12.3 ¿Como descargarlo e incluirlo en el proyecto?
-- 12.4 Minificado vs no minificado
-- 12.5 Equivalencias en jQuery de los métodos vistos hasta ahora
+- 12.1 ¿Qué es jQuery? y ¿Para que sirve?
+- 12.2 ¿Como descargarlo e incluirlo en el proyecto?
+- 12.3 Minificado vs no minificado
+- 12.4 Equivalencias en jQuery de algunos de los métodos y propiedades vistos hasta ahora
 
-# 13 JQuery Selectores y eventos [Modulo C]
+# 13 Más eventos y métodos de jQuery [Modulo C]
 
-- 13.1 Selectores
-- 13.2 Eventos
+- 13.1 Más eventos de jQuery
+- 13.2 Más métodos de jQuery
 
-# 14 Crear la estructura de una SPA usando JQuery [Modulo C]
+# 14 Crear la estructura de una SPA usando jQuery [Modulo C]
 
 - 14.1 ¿Qué es SPA y para qué sirve?
 - 14.2 Instalación de un servidor local Front-End
-- 14.3 Función `.load()`
+- 14.3 Método `.load()`
 - 14.4 Router de una SPA
 - 14.5 Patrón MVC
 

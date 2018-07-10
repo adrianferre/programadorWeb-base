@@ -1,0 +1,3 @@
+# Minificado vs no minificado
+
+Existen dos tipos de archivos que podemos incluir con el código de jQuery, uno es el minificado o comprimido y el otro es el formato normal o no comprimido. El minificado es un formato en el cual el JavaScript no tiene ningún comentario, salto de línea ni espacio y todo se encuentra escrito en una sola línea, este formato lo vamos a utilizar cuando lo subamos al servidor para ahorrar tiempo de carga. El formato no minificado es el código normal de JavaScript y nos va a servir durante el desarrollo ya que nos va a dar más información cuando ocurra algún error y nos va a permitir leerlo fácilmente para entender detalles puntuales del código.
