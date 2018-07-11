@@ -22,5 +22,4 @@ Para incluir JavaScript en nuestro archivo HTML tenemos dos formas:
 </html>
 ```
 
-
-A lo largo del curso vamos a utilizar la segunda forma y vamos a ir viendo también como evitar los conflictos cuando usamos más de un archivo.
+> A lo largo del curso vamos a utilizar la segunda forma y vamos a ir viendo también como evitar los conflictos cuando usamos más de un archivo.
