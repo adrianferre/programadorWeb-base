@@ -1,9 +1,13 @@
 # 13 Más eventos y métodos de jQuery [Modulo C]
 
-- 13.1 Más eventos de jQuery
-   - `$(document).ready()`
+- 13.1 Validar un formulario usando métodos de jQuery
    - `.on()`
    - `.one()`
+   - `.append()`
+   - `.next()`
+   - `.remove()`
+   - `.parent()`
+- 13.1 Responder a eventos del teclado
    - `.keydown()`
       - Enter: 13
       - Up: 38
@@ -15,10 +19,3 @@
       - Ctrl: 17
       - Alt: 18
       - Shift: 16
-
-- 13.2 Más métodos de jQuery
-   - `.append()`
-   - `.next()`
-   - `.remove()`
-   - `.parent()`
-   - `.css()`

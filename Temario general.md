@@ -88,24 +88,24 @@
 - 13.1 Más eventos de jQuery
 - 13.2 Más métodos de jQuery
 
-# 14 Crear la estructura de una SPA usando jQuery [Modulo C]
+# 14 Efectos y animaciones con jQuery [Modulo C]
+
+- 15.1 Efectos
+- 15.2 Animaciones
+
+# 15 Consultas AJAX con JQuery [Modulo C]
+
+- 16.1 ¿Qué es una API y para qué sirve?
+- 16.2 ¿Qué son los métodos HTTP GET, POST, PUT y DELETE?
+- 16.3 AJAX
+
+# 16 Crear la estructura de una SPA usando jQuery [Modulo C]
 
 - 14.1 ¿Qué es SPA y para qué sirve?
 - 14.2 Instalación de un servidor local Front-End
 - 14.3 Método `.load()`
 - 14.4 Router de una SPA
 - 14.5 Patrón MVC
-
-# 15 Efectos y animaciones con jQuery [Modulo C]
-
-- 15.1 Efectos
-- 15.2 Animaciones
-
-# 16 Consultas AJAX con JQuery [Modulo C]
-
-- 16.1 ¿Qué es una API y para qué sirve?
-- 16.2 ¿Qué son los métodos HTTP GET, POST, PUT y DELETE?
-- 16.3 AJAX
 
 # 17 Workshop II
 
