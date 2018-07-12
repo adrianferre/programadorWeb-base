@@ -106,6 +106,7 @@
 - 14.3 Método `.load()`
 - 14.4 Router de una SPA
 - 14.5 Patrón MVC
+- 14.6 Module patern
 
 # 17 Workshop II
 

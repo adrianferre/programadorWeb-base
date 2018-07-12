@@ -1,0 +1,55 @@
+@font-face {
+  font-family: HarryPotter;
+  src: local("HarryPotter"), url(../fonts/ParryHotter.ttf);
+  font-weight: bold;
+}
+
+#background1 {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+#background2 {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+#background3 {
+  z-index: 3;
+  position: absolute;
+  left: 0;
+  width: 100%;
+}
+
+.golden-snitch {
+  width: 300px;
+  margin-left: 100px;
+}
+
+.broomstick {
+  width: 300px;
+  margin-right: 100px;
+  margin-left: auto;
+}
+
+.introduction {
+  font-family: 'HarryPotter' !important;
+  width: 80%;
+  margin: auto;
+  font-size: 48px;
+  color: azure;
+}
+
+.logo-img {
+  width: 60%;
+  margin: auto;
+}
+
+.parallaxText-img {
+  width: 100%;
+}
