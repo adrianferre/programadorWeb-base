@@ -1,0 +1,3 @@
+# ¿Qué es una API y para qué sirve?
+
+Una API (Application Programming Interface) es la forma o lenguaje en que se define la comunicación entre dos aplicaciones. Nosotros vamos a ver particularmente la comunicación con API's HTTP provistas por terceros que van a exponer distintas rutas para poder comunicarnos y pedirles información. Un ejemplo del uso puede ser la API de Google Calendar que permite gestionar el calendario y modificarlo sin acceder a la interfaz provista en sus aplicaciones.
