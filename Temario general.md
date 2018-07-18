@@ -102,7 +102,7 @@
 # 16 Crear la estructura de una SPA usando jQuery [Modulo C]
 
 - 16.1 ¿Qué es SPA y para qué sirve?
-- 16.2 Instalación de un servidor local Front-End
+- 16.2 Creación e instalación de un servidor local Front-End
 - 16.3 Método `.load()`
 - 16.4 Router de una SPA
 - 16.5 Patrón MVC

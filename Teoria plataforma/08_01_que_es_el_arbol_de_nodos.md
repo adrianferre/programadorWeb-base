@@ -4,4 +4,4 @@
 
 ## Ejemplo de un árbol de nodos de un página HTML
 
-![Árbol de nodos](08_01_arbol_de_nodos.gif)
+![Árbol de nodos](./08_01_arbol_de_nodos.gif)
