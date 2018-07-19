@@ -1,4 +1,4 @@
-# 
+# Creación e instalación de la estructura de un proyecto SPA
 
 ## Organización de las carpetas del proyecto
 
@@ -6,7 +6,7 @@ Vamos a empezar a organizar nuestro proyecto para poder construir una SPA, para 
 
 ![Ejemplo de estructura de carpetas 1](./16_02_folders_example_1.png)
 
-> En la carpeta public vamos a guardar el `index.html` y los archivos ya procesados de JavaScript y CSS, mientras que en la carpeta src vamos a guardar los archivos sin procesar como los SASS y los distintos JavaScript de cada modulo de nuestro proyecto.
+> En la carpeta public vamos a guardar el `index.html` y los archivos ya procesados de JavaScript, mientras que en la carpeta src vamos a guardar los archivos sin procesar de cada modulo de nuestro proyecto.
 
 ## Creación del package.json
 
@@ -14,7 +14,7 @@ Antes de empezar a instalar dependencias tenemos que generar nuestro archivo `pa
 
 `npm init`
 
-Cuando nos vaya pidiendo los datos los vamos completando, de todos modos más adelante vamos a poder modificarlos. El `package.json` debería quedar similar al siguiente:
+Luego de ejecutar los comandos vamos a ir completando los datos que sean necesarios si no sabemos que poner en alguno dejamos el valor por defecto, de todos modos más adelante vamos a poder modificarlos. El `package.json` debería quedar similar al siguiente:
 
 ```js
 {
@@ -34,19 +34,19 @@ Cuando nos vaya pidiendo los datos los vamos completando, de todos modos más ad
 
 Dentro de la misma carpeta del proyecto vamos a ir corriendo comandos para poder instalar las dependencias que vamos a necesitar en nuestro proyecto.
 
-### Boostrap
-
-Para la parte visual vamos a utilizar Boostrap para simplificar el trabajo de maquetado y también vamos a instalar Popper que es requerido para algunos componentes.
-
-`npm install bootstrap@4.1.2 popper.js@^1.14.3`
-
-> Al utilizar el `@` en la instalación nos permite seleccionar versiones especificas de los paquetes de NPM.
-
 ### jQuery
 
 Para manipular el DOM, realizar consultas AJAX y responder a los eventos vamos a utilizar la biblioteca de jQuery.
 
 `npm install jquery`
+
+### Boostrap
+
+Para la parte visual vamos a utilizar Boostrap para simplificar el trabajo de maquetado y también vamos a instalar Popper que es requerido para algunos componentes, jQuery también es requerido pero lo instalamos en el paso anterior.
+
+`npm install bootstrap@4.1.2 popper.js@^1.14.3`
+
+> Al utilizar el `@` en la instalación nos permite seleccionar versiones especificas de los paquetes de NPM.
 
 ### Sammy
 
@@ -123,7 +123,7 @@ import './css/styles.css'
 import './js/app'
 ```
 
-> Esto va a agregar Boostrap, sus estilos y Popover.js a nuestro proyecto.
+> Esto va a agregar Popover.js, Boostrap, sus estilos y nuestros archivos de JavaScript y CSS principales y a nuestro proyecto.
 
 2. En src/js/ debemos agregar el archivo `app.js` que va a ser el archivo JavaScript principal de nuestra aplicación.
 
@@ -135,7 +135,7 @@ import './js/app'
 <script src="./js/index.js"></script>
 ```
 
-> Con este `index.js` vamos a importar todos los estilos de Boostrap así como el JavaScript que vayamos escribiendo, y como Webpack compila todo el código en este archivo no es necesario importar nada más.
+> Como Webpack compila todo el código en el archivo `index.js` no es necesario importar nada más.
 
 Al final nos tiene que quedar una estructura como la siguiente:
 

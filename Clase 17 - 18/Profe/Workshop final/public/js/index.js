@@ -126,7 +126,7 @@ eval("exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \".pato {\\n  color: red;\\n}\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/css/styles.css?./node_modules/css-loader");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/lib/css-base.js */ \"./node_modules/css-loader/lib/css-base.js\")(false);\n// imports\n\n\n// module\nexports.push([module.i, \"\\n\", \"\"]);\n\n// exports\n\n\n//# sourceURL=webpack:///./src/css/styles.css?./node_modules/css-loader");
 
 /***/ }),
 
@@ -227,7 +227,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var popp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log('Init app')\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
+eval("console.log('Init app Pato')\n\n\n//# sourceURL=webpack:///./src/js/app.js?");
 
 /***/ }),
 
