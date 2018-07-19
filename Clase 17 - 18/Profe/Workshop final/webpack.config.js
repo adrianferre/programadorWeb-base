@@ -1,8 +1,16 @@
 module.exports = {
-  entry: [ 'jquery', 'sammy', 'bootstrap', __dirname + '/src/js/main.js' ],
+  entry: [ __dirname + '/src/index.js' ],
   output: {
     path: __dirname + '/public/js/',
-    filename: 'main.js'
+    filename: 'index.js'
+  },
+  module: {
+    rules: [
+      {
+        test: /\.css$/,
+        use: [ 'style-loader', 'css-loader' ]
+      }
+    ]
   },
   watch: true
 }
