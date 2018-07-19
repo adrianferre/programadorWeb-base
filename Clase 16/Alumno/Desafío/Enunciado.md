@@ -3,9 +3,9 @@
 - Crear una proyecto usando Webpack que cargue dinámicamente las distintas pantallas del Workshop Final:
 
 - Home
-- People
-- Local Storage
-- Contact
+- Personaje
+- Guardados
+- Contacto
 
 En la carpeta recursos están los partials, CSS, fonts, imagenes y la página principal que van en la carpeta public del proyecto.
 
