@@ -13,7 +13,7 @@
       - Traducir los mismos campos que la tabla de personajes.
       - Deberá tener un botón que al presionarlo elimine el personaje en el localStorage y lo borre de la tabla.
    - Contacto:
-      - Deberá tener un formulario que valide que ninguno de los campos esten vacíos y que el campo mail cumpla con el formato minímo (un @ y un .). La validación tiene que hacerse al perder foco y luego dinámicamente en cada cambio.
+      - Deberá tener un formulario que valide que ninguno de los campos estén vacíos y que el campo mail cumpla con el formato mínimo (un @ y un .). La validación tiene que hacerse al perder foco y luego dinámicamente en cada cambio.
   - Se deberán aplicar los conceptos de SPA, MVC y Module Pattern para organizar el proyecto.
 
 [Video ejemplo](https://www.useloom.com/share/079626a0720c49f5825e5aadca9adc6a)
