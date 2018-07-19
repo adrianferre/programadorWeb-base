@@ -4,7 +4,8 @@
   "description": "Workshop final - Camada 2935",
   "main": "index.js",
   "scripts": {
-    "start": "webpack --mode=development",
+    "server": "http-server",
+    "start": "webpack --mode=development & npm run server",
     "build": "webpack --mode=production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,12 +13,14 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^4.1.2",
+    "crossroads": "^0.12.2",
     "jquery": "^3.3.1",
-    "popper.js": "^1.14.3",
-    "sammy": "^0.7.6"
+    "popper.js": "^1.14.3"
   },
   "devDependencies": {
     "css-loader": "^1.0.0",
+    "http-server": "^0.11.1",
+    "nodemon": "^1.18.3",
     "style-loader": "^0.21.0",
     "webpack": "^4.16.1",
     "webpack-cli": "^3.1.0"

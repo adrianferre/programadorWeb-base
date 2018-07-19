@@ -48,11 +48,19 @@ Para la parte visual vamos a utilizar Boostrap para simplificar el trabajo de ma
 
 > Al utilizar el `@` en la instalación nos permite seleccionar versiones especificas de los paquetes de NPM.
 
-### Sammy
+### Crossroads
 
-La biblioteca Sammy nos va a permitir crear un Router para nuestra aplicación que nos va a ayudar a manejar la navegación entre pantallas y hacer el cambio de contenido junto con jQuery.
+La biblioteca Crossroads nos va a permitir crear un Router para nuestra aplicación que nos va a ayudar a manejar la navegación entre pantallas y hacer el cambio de contenido junto con jQuery.
 
-`npm install sammy`
+`npm install crossroads`
+
+### Http-server
+
+Esta biblioteca nos va a permitir servir archivos estáticos como si fuera un servidor, sin eso el método `.load()` de jQuery no va a funcionar localmente.
+
+`npm install http-server -g`
+
+> El `-g` lo instala global en nuestra computadora.
 
 ### Webpack
 
@@ -77,6 +85,8 @@ Por último vamos a agregar algunos archivos y líneas de código que nos van a 
 Para terminar de configurar Webpack vamos a agregar un archivo en la carpeta de nuestro proyecto, al mismo nivel del `package.json` con el nombre `webpack.config.js` y dentro vamos a escribir el siguiente código:
 
 ```js
+var webpack = require('webpack')
+
 module.exports = {
   entry: [ __dirname + '/src/index.js' ],
   output: {
@@ -91,6 +101,12 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    })
+  ],
   watch: true
 }
 ```
@@ -102,24 +118,25 @@ module.exports = {
 En el archivo `package.json` vamos a agregar el siguiente script:
 
 ```js
-"scripts": {
-  "start": "webpack --mode=development",
-  "build": "webpack --mode=production",
-  "test": "echo \"Error: no test specified\" && exit 1"
-}
+  "scripts": {
+    "server": "http-server",
+    "start": "webpack --mode=development & npm run server",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
 ```
 
 > Esto nos va a permitir iniciar Webpack en modo desarrollo corriendo el comando `npm start` en consola, si corremos `npm build` lo hacemos en modo producción.
 
-### Archivos principales de nuestra aplicación
+## Archivos principales de nuestra aplicación
 
 1. En src/ debemos agregar el archivo `index.js` y dentro al comienzo el código:
 
 ```js
+import 'jquery'
 import 'popper.js'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './css/styles.css'
 import './js/app'
 ```
 
@@ -141,3 +158,6 @@ Al final nos tiene que quedar una estructura como la siguiente:
 
 ![Ejemplo de estructura de carpetas 2](./16_02_folders_example_2.png)
 
+## ¿Como usarlo?
+
+A partir de este punto vamos a escribir nuestro código, ya sea CSS o JavaScript en los archivos ubicados en src/css o src/js y en consola vamos a dejar corriendo el comando `npm start`. Cada vez que haya un cambio en algún archivo importado en nuestro archivo `index.js` ubicado en src o en algún archivo importado por este Webpack va a volver a compilar el código y actualizar el `index.js` de la carpeta public, por lo cual con simplemente recargar nuestra página vamos a ver los cambios. Por otro lado http-server va a generar un servidor estático en http://localhost:8080/ y va a exponer en esa ruta lo que esta dentro de la carpeta public, por defecto ejecutando el `index.html`.

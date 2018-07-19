@@ -103,10 +103,10 @@
 
 - 16.1 ¿Qué es SPA y para qué sirve?
 - 16.2 Creación e instalación de la estructura de un proyecto SPA
-- 16.3 Router de una SPA
-- 16.4 Método `.load()` de jQuery
-- 16.5 Patrón MVC
-- 16.6 Module patern
+- 16.3 Module Pattern
+- 16.4 Router de una SPA
+- 16.5 Método `load()` de jQuery y patrón MVC
+
 
 # 17 Workshop II
 

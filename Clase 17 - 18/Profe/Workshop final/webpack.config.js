@@ -1,3 +1,5 @@
+var webpack = require('webpack')
+
 module.exports = {
   entry: [ __dirname + '/src/index.js' ],
   output: {
@@ -12,5 +14,11 @@ module.exports = {
       }
     ]
   },
+  plugins: [
+    new webpack.ProvidePlugin({
+      $: 'jquery',
+      jQuery: 'jquery'
+    })
+  ],
   watch: true
 }

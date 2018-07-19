@@ -1,0 +1,3 @@
+# ¿Qué es SPA y para qué sirve?
+
+Una SPA (Single Page Aplication) es una pagína web que se carga una única vez y luego va interactuando con el usuario cargando dinámicamente el contenido, en lugar de volver a cargar toda la página nuevamente. Esto permite mejorar la experiencia del usuario, los tiempos de carga y crear aplicaciones de gran complejidad que de otra forma serían muy difíciles. Algunos ejemplos de esto son [AutoCad web](https://web.autocad.com/) o [Google docs](https://www.google.com/docs/).
