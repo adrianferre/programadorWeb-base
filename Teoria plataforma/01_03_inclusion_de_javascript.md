@@ -1,4 +1,4 @@
-# Inclusión de Javascript
+# Inclusión de JavaScript
 
 Para incluir JavaScript en nuestro archivo HTML tenemos dos formas:
 

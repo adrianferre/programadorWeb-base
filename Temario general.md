@@ -1,8 +1,8 @@
 # 1 Sintaxis y Variables [Modulo A]
 
 - 1.1	¿Qué es un algoritmo?
-- 1.2	¿Qué es Javascript? 
-- 1.3	Inclusión de Javascript.
+- 1.2	¿Qué es JavaScript? 
+- 1.3	Inclusión de JavaScript.
 - 1.4	Sintaxis y palabras reservadas
 - 1.5	Variables
 - 1.6	Tipos de valores

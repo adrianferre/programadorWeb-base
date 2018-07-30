@@ -1,22 +1,10 @@
-
 # Operadores lógicos
 
 Los operadores lógicos nos permiten evaluar dos elementos que arrojen resultados booleanos o puedan evaluarse como tales y devolver un resultado que también puede ser evaluado como un booleano. En el caso del NOT la operación la hace solo con un elemento.
 
-
 ## NOT
 
 El operador de negación evalúa una sentencia de un solo termino, si la evaluación es verdadera devuelve `false` y si la evaluación es falsa devuelve `true`.
-En JavaScript hay una lista de valores son falsos, todos los que no están en esta lista son verdaderos.
-
-### Lista de falsos - falsy list
-
-- El string vacío `''`
-- El número cero `0` o menos cero `-0`
-- El símbolo `NaN`
-- El nulo `null` o indefinido `undefined`
-- El falso `false`
-
 
 ```js
 !false // Devuelve true

@@ -1,20 +1,30 @@
 # Condicionales
 
-Los condicionales nos permiten evaluar una condición y decidir seguir según el resultado que camino seguir dentro del código.
+Los condicionales nos permiten evaluar si se cumple una condición y decidir seguir según el resultado que camino seguir dentro del código. En JavaScript existen unos valores que son evaluados como falsos (falsy values), cualquier otro valor es verdadero.
+
+### Lista de falsos - falsy list
+
+- El string vacío `''`
+- El número cero `0` o menos cero `-0`
+- El símbolo `NaN`
+- El nulo `null` o indefinido `undefined`
+- El falso `false`
 
 ## If
 
 El If se declara usando la palabra reservada `if` seguida de paréntesis y llaves `(){}`, dentro de los paréntesis se coloca una expresión booleana para evaluar y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera.
 
 ```js
-if(firstName === 'Juan'){
-  console.log('Tu nombre es Juan')
+var firstName = 'María'
+
+if(firstName){
+  console.log('Escribiste un nombre')
 }
 
 console.log('Gracias!')
 ```
 
-> En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`, por otro lado siempre se va a mostrar en consola un `Gracias!` no importa el valor de `firstName` porque esta por fuera de las llaves `{}` del `if`.
+> En este código el `if` evalúa si la variable `firstName` es verdadera, si es así muestra en consola `Escribiste un nombre`, por otro lado siempre se va a mostrar en consola un `Gracias!` no importa el valor de `firstName` porque esta por fuera de las llaves `{}` del `if`.
 
 ## If else
 
