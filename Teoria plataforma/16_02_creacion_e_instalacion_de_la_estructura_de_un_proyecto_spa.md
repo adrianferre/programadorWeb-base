@@ -60,7 +60,7 @@ Esta biblioteca nos va a permitir servir archivos estáticos como si fuera un se
 
 `npm install http-server -g`
 
-> El `-g` lo instala global en nuestra computadora.
+> El `-g` lo instala global en nuestra computadora, en caso de usar Mac poner la palabra `sudo` primero antes del comando npm y luego ingresar nuestra contraseña si nos la pide.
 
 ### Webpack
 

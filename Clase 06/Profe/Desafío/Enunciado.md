@@ -1,4 +1,4 @@
-# Crear una función que compare dos textos y encuentre coincidencias parciales
+# Crear una función que compare dos textos y encuentre coincidencias parciales [Pieza del Workshop I]
 
 - Crear una función que reciba como parámetros dos string y devuelva `true` en caso de encontrar una coincidencia parcial y `false` en caso contrario, la función no tiene que distinguir mayúsculas de minúsculas. El primer parámetro pasado a la función es el que se va a tratar de encontrarse dentro del segundo, si alguno de los parámetros no es un string también deberá devolver `false`.
 

@@ -1,4 +1,4 @@
-# Crear una función que elimine un alumno de un Array
+# Crear una función que elimine un elemento de un Array
 
 - La función deberá recibir como parámetro un indice y como segundo parámetro un Array y devolver una copia del mismo pero con el elemento que esta en el indice eliminado. 
 

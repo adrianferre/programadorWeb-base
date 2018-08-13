@@ -24,10 +24,11 @@ var studentsList = [
 ]
 
 /**
- * Función que permite buscar la posición de un estudiante en el array,
+ * searchStudentIndexByText permite buscar la posición de un estudiante en el array,
  * comparando nombre o apellido por valor exacto
- * @param {String} text 
- * @param {Array} studentsList 
+ * @param {string} text nombre del estudiante
+ * @param {Array} studentsList Array de estudiantes
+ * @returns {number} posición del estudiante en el Array, si no lo encuentra -1
  */
 
 function searchStudentIndexByText (text, studentsList) {

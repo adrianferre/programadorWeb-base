@@ -20,11 +20,16 @@ var oldStudents = [
   }
 ]
 
-// Función constructora
-
+/**
+ * Student es una función constructora de objetos estudiante
+ * @param {string} firstName
+ * @param {string} lastName
+ * @param {number} dni
+ * @param {string} email
+ */
 function Student (firstName, lastName, dni, email) {
   // Propiedades privadas
-  var id = dni
+  var _id = Math.random()
 
   // Propiedades públicas
   this.firstName = firstName
@@ -37,20 +42,16 @@ function Student (firstName, lastName, dni, email) {
     return id
   }
 
-  // var name = firstName || 'default'
-
   this.getFullName = function () {
-    return (this.firstName || '') + ' ' + (this.lastName || '')
-
-    // if (this.firstName && this.lastName) {
-    //   return this.firstName + ' ' + this.lastName
-    // } else if (this.firstName && !this.lastName) {
-    //   return this.firstName
-    // } else if (!this.firstName && this.lastName) {
-    //   return this.lastName
-    // } else {
-    //   return ''
-    // }
+    if (this.firstName && this.lastName) {
+      return this.firstName + ' ' + this.lastName
+    } else if (this.firstName && !this.lastName) {
+      return this.firstName
+    } else if (!this.firstName && this.lastName) {
+      return this.lastName
+    } else {
+      return ''
+    }
   }
 }
 

@@ -20,6 +20,12 @@ var oldCars = [
 
 // Función constructora
 
+/**
+ * Car es una función constructora de un objeto auto
+ * @param {string} _model
+ * @param {string} _brand
+ * @param {number} _year
+ */
 function Car (_model, _brand, _year) {
   // Propiedades privadas
   var _id = Math.random()
