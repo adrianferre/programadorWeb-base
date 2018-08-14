@@ -1,4 +1,4 @@
-# 6 Métodos de String y Array
+# 6 Métodos de String y Array [Modulo B]
 	
 - 6.1	Validación de tipo de valor mediante `typeof`
 - 6.2	Métodos de String

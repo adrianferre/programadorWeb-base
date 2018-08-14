@@ -29,7 +29,7 @@ var oldStudents = [
  */
 function Student (firstName, lastName, dni, email) {
   // Propiedades privadas
-  var _id = Math.random()
+  var id = dni
 
   // Propiedades públicas
   this.firstName = firstName

@@ -3,7 +3,7 @@
  * dentro del segundo
  * @param {*} text texto a buscar
  * @param {*} baseText texto donde se va a realizar la búsqueda
- * @returns {boolean} devuelve true si encuentra y false en caso contrario
+ * @returns {boolean} true si encuentra y false en caso contrario
  */
 function includesText (text, baseText) {
   // Valido que ambos parámetros sean string

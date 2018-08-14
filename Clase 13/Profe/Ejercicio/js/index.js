@@ -5,6 +5,12 @@ $(document).ready(function () {
 
   $(document).keydown(changeCounter)
 
+  /**
+ * changeCounter recive un evento y verifica que tecla se apreto
+ * para incrementar, decrementar o resetear el contador 
+ * según corresponda
+ * @param {HTMLEvent} event
+ */
   function changeCounter (event) {
     // Levanto que tecla se presionó
     var keyNumber = event.which

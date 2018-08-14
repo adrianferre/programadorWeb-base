@@ -46,15 +46,6 @@ var oldCar
 var newCar
 var newCars = []
 
-// newCar = new Car('Twing', 'Renault', 2000)
-
-// console.log(newCar.getCarName())
-
-// newCar.model = 'Pato'
-// newCar.brand = 'Ford'
-
-// console.log(newCar.getCarName())
-
 // Lleno un nuevo Array con los objetos creados con la función Car
 for (var i = 0; i < oldCars.length; i++) {
   oldCar = oldCars[i]

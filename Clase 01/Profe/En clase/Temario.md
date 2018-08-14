@@ -1,4 +1,4 @@
-# 1 Sintaxis y variables
+# 1 Sintaxis y variables [Modulo A]
 
 - 1.1 ¿Qué es un algoritmo?
 - 1.2 ¿Qué es JavaScript? 

@@ -1,4 +1,4 @@
-# Objetos 
+# Objetos [Modulo B]
 
 1. ¿Qué es un objeto?
 2. Función constructora y `new`

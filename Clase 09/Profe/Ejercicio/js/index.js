@@ -2,6 +2,12 @@ var firstNameInput = document.getElementById('firstName')
 
 firstNameInput.onblur = validateRequiredField
 
+/**
+ * validateRequiredField recibe como parámetro un evento y valida
+ * que el campo tenga contenido
+ * @param {HTMLEvent} event
+ */
+
 function validateRequiredField (event) {
   var inputNode = event.target
 

@@ -1,4 +1,6 @@
+// Espero a que el HTML este completamente cargado
 $(document).ready(function () {
+  // Busco los nodos que voy a utilizar
   var firstNameInputNode = $('#firstName')
   var emailInputNode = $('#email')
   var commentsInputNode = $('#comments')
@@ -9,6 +11,12 @@ $(document).ready(function () {
   emailInputNode.one('blur', validateEmailField)
 
   commentsInputNode.one('blur', validateEmtpyField)
+
+  /**
+ * validateEmtpyField es una función que el campo tenga un valor
+ *
+ * @param {HTMLEvent} event
+ */
 
   function validateEmtpyField (event) {
     var inputNode = $(this)
@@ -39,6 +47,11 @@ $(document).ready(function () {
     validateButton()
   }
 
+  /**
+ * validateEmailField es una función que valida que el campo sea email
+ *
+ * @param {HTMLEvent} event
+ */
   function validateEmailField (event) {
     var inputNode = $(this)
 
@@ -78,6 +91,10 @@ $(document).ready(function () {
     validateButton()
   }
 
+  /**
+ * validateButton habilita el botón de submit si existen
+ * al menos cuatro nodos con la clase is-valid
+ */
   function validateButton () {
     var validInputNodes = $('.is-valid')
 

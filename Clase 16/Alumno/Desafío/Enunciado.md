@@ -1,6 +1,6 @@
 # Crear la estructura de proyecto para utilizar en el Workshop final
 
-- Crear una proyecto usando Webpack que cargue dinámicamente las distintas pantallas del Workshop Final:
+- Crear una proyecto usando Webpack que cargue dinámicamente las distintas pantallas del Workshop Final, crear el mismo en la carpeta del Workshop final:
 
 - Home
 - Personaje
