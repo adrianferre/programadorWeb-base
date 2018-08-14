@@ -7,7 +7,7 @@
 - 1.5	Variables
 - 1.6	Tipos de valores
 - 1.7	Operadores aritméticos
-- 1.8 Web API's y funciones de alto nivel útiles [F]
+- 1.8 Web API's y funciones de alto nivel útiles
 
 # 2 Control de flujo [Modulo A]
 
@@ -17,7 +17,7 @@
 
 # 3 Ciclos e iteraciónes [Modulo A]
 
-- 3.0 Repaso de Git y GitHub [F]
+- 3.0 Repaso de Git y GitHub
 - 3.1	Ciclos e iteraciones
 - 3.2	Sentencias `break` y `continue`
 
