@@ -174,7 +174,7 @@ import './js/app'
 
 Al final nos tiene que quedar una estructura como la siguiente:
 
-![Ejemplo de estructura de carpetas 2](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_02_folders_example_2.png)
+![Ejemplo de estructura de carpetas 2](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_02_folders_example_2.png?raw=true)
 
 ## ¿Como usarlo?
 
