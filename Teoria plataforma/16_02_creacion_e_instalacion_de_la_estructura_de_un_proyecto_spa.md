@@ -179,3 +179,7 @@ Al final nos tiene que quedar una estructura como la siguiente:
 ## ¿Como usarlo?
 
 A partir de este punto vamos a escribir nuestro código, ya sea CSS o JavaScript en los archivos ubicados en src/css o src/js y en consola vamos a dejar corriendo el comando `npm start`. Cada vez que haya un cambio en algún archivo importado en nuestro archivo `index.js` ubicado en src o en algún archivo importado por este Webpack va a volver a compilar el código y actualizar el `index.js` de la carpeta public, por lo cual con simplemente recargar nuestra página vamos a ver los cambios. Por otro lado http-server va a generar un servidor estático en http://localhost:8080/ y va a exponer en esa ruta lo que esta dentro de la carpeta public, por defecto ejecutando el `index.html`.
+
+*Importante deshabilitar cache y tener la consola abierta al momento de usarlo, parq ue refresque los cambios!!!*
+
+![Ejemplo de estructura de carpetas 2](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_02_disabled_cache.png?raw=true)
