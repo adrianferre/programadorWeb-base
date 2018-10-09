@@ -76,6 +76,12 @@ Por último para poder importar directamente desde nuestro JavaScript los CSS te
 
 `npm install --save-dev style-loader css-loader`
 
+### Concurrently [Solo windows]
+
+Para poder correr dos procesos al mismo tiempo en Windows es necesario instalar concurrently, ya que no lo soporta de forma nativa.
+
+`npm i concurrently --save-dev`
+
 ## Configuración
 
 Por último vamos a agregar algunos archivos y líneas de código que nos van a permitir terminar de configurar nuestro proyecto.
@@ -117,12 +123,24 @@ module.exports = {
 
 En el archivo `package.json` vamos a agregar el siguiente script:
 
+*Si usamos Mac:*
+
 ```js
   "scripts": {
     "server": "http-server",
     "start": "webpack --mode=development & npm run server",
-    "build": "webpack --mode=production",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode=production"
+  },
+```
+
+*Si usamos windows:*
+
+```js
+  "scripts": {
+    "server": "http-server",
+    "dev": "webpack --mode=development",
+    "start": "concurrently --kill-others \"npm run dev\" \"npm run server\"",
+    "build": "webpack --mode=production"
   },
 ```
 

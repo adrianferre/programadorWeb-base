@@ -31,7 +31,7 @@ El curso incluye documentación y videos dentro de la plataforma, pero también 
 5. Luego ejecuten el comando `git remote add profe <URL_del_repositorio en_mi_GitHub>` para vincular su repo con el mio.
 6. Verifiquen que tienen agregados los dos origines con el comando `git remote -v`.
 7. Cada vez que quieran actualizar el repositorio con lo que subí hagan un `git pull profe master`.
-8. Para subir sus cambios usen los mismos comandos que usan siempre `git add .`, `git commit -m '<Comentario>'` y `git push`, los cambios solo se van a subir en su repositorio de GitHub.
+8. Para subir sus cambios usen los mismos comandos que usan siempre `git add .`, `git commit -m "<Comentario>"` y `git push`, los cambios solo se van a subir en su repositorio de GitHub.
 
 > Extra: Si ejecutan el comando `git config --global alias.up 'pull --rebase --autostash'` usen `git up` en vez de `git pull` es mejor para traer los cambios.
 
