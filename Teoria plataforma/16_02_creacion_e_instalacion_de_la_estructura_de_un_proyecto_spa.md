@@ -4,7 +4,7 @@
 
 Vamos a empezar a organizar nuestro proyecto para poder construir una SPA, para esto vamos a dividir nuestro proyecto en dos carpetas principales una public que va a contener lo que vamos a subir al servidor y otra src que va a tener los archivos sin procesar.
 
-![Ejemplo de estructura de carpetas 1](https://drive.google.com/open?id=1e1NoUWMx8ONk3hQLE2kU3lb1OKRAJ4Jx)
+![Ejemplo de estructura de carpetas 1](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_02_folders_example_1.png?raw=true)
 
 > En la carpeta public vamos a guardar el `index.html` y los archivos ya procesados de JavaScript, mientras que en la carpeta src vamos a guardar los archivos sin procesar de cada modulo de nuestro proyecto.
 
