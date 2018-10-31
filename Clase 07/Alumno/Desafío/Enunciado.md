@@ -1,4 +1,4 @@
-## Crea una función que permita levantar una lista del localStorage
+### Crea una función que permita levantar una lista del localStorage
 
 - La función tiene que recibir como parámetro una key y buscar en el localStorage por esa key devolviendo un objeto de JavaScript, si no existe el elemento debe devolver un Array vacío. La función tiene que validar los parámetros que recibe, en caso de que alguno sea incorrecto no debe romper ni borrar nada.
 
