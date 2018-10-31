@@ -10,7 +10,7 @@ Crossroads que es una biblioteca de JavaScript que nos permite ir ejecutando có
 
 Para empezar utilizarlo vamos a crear un archivo `router.js` en la misma carpeta que esta nuestro `app.js`.
 
-![Ejemplo router 1](./16_04_router_example_1.png)
+![Ejemplo 1](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_04_router_example_1.png?raw=true)
 
 Dentro de `app.js` al comienzo del archivo vamos a agregar la siguiente línea de código:
 
