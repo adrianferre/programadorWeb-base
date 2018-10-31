@@ -22,7 +22,6 @@ Durante nuestro primer Workshop vamos a realizar un programa que nos permita ges
 **Piezas a utilizar:**
 
 - HTML -> Desafío clase 01
-- Función constructora `Student` -> Desafío clase 05
 - Función `setLocalList` -> Ejercicio clase 07
 - Función `getLocalList` -> Desafío clase 07
 - Función `createStudentNode` -> Desafío clase 08

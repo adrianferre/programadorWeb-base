@@ -1,6 +1,6 @@
 # Crear una función que cree un nodo alumno [Pieza del Workshop I]
 
-- Crear una función que reciba como parámetro un objeto alumno (creado con la función de la clase 5) y devuelva como resultado un nodo `<li>` con los datos del alumno.
+- Crear una función que reciba como parámetro un objeto alumno y devuelva como resultado un nodo `<li>` con los datos del alumno.
 
 ```js
 var studentNode = createStudentNode(newStudent)
