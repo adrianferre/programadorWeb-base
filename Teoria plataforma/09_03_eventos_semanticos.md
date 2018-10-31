@@ -40,6 +40,6 @@ function showMessageOver(){
 }
 ```
 
-> En este código al hacer click en el botón se va a mostrar un mensaje en consola que diga `'El usuario hizo click''` y al pasar el mouse por encima un mensaje que diga `'El usuario paso el mouse sobre el botón'`.
+> En este código al hacer click en el botón se va a mostrar un mensaje en consola que diga `'El usuario hizo click'` y al pasar el mouse por encima un mensaje que diga `'El usuario paso el mouse sobre el botón'`.
 
 *En este caso el HTML se mantiene limpio porque solo es necesario el id en el HTML no importa cuantos manejadores de eventos le agreguemos al mismo elemento. Esto mantiene nuestro código más limpio y ordenado*

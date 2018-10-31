@@ -8,7 +8,7 @@ El Module Pattern es un patrón de diseño que se utiliza en JavaScript para ais
 
 Para poder crear nuestro primer modulo vamos a crear un archivo de JavaScript dentro de nuestra carpeta src/js/utils llamado `localStorage.js`:
 
-![Ejemplo 1](./16_03_module_example_1.png)
+![Ejemplo 1](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_03_module_example_1.png?raw=true)
 
 Y dentro de ese este archivo vamos a poner nuestras funciones que manipulan el localStorage:
 
