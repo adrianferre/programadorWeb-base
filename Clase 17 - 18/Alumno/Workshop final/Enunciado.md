@@ -18,7 +18,7 @@
 
 [Video ejemplo](https://www.useloom.com/share/079626a0720c49f5825e5aadca9adc6a)
 
-# Versión extendida
+## Versión extendida
 
 - Filtrar los por los datos que ya están guardados en el localStorage para no mostrarlos en la tabla de personajes.
 
