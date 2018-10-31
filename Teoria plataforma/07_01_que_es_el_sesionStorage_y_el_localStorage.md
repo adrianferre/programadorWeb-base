@@ -10,7 +10,7 @@
 
 - El sessionStorage y el localStorgae puede verse en las devTools de Chorme en la solapa `Application` como muestra la siguiente foto
 
-![LocalStorage](07_01_captura_localStorage.png)
+![LocalStorage](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/07_01_captura_localStorage.png?raw=true)
 
 > Acá podemos ver los valores que ya tiene cargados así como los nuevos que vayamos agregando, pisando o eliminando.
 
