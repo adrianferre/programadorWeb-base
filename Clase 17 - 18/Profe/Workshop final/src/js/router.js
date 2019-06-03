@@ -1,15 +1,21 @@
 import crossroads from 'crossroads'
 
-crossroads.addRoute('#/pato', function () {
-  console.log('PATO 2')
-})
+function router () {
+  crossroads.addRoute('', function () {
+    console.log('Home page')
+    $('#root').load('./partials/home.html')
+  })
 
-crossroads.addRoute('/', function () {
-  $('#root').load('./partials/home.html')
-})
+  crossroads.addRoute('#/people', function () {
+    console.log('People')
+  })
 
-$(window).on('hashchange', function () {
+  // En cada cambio del # va a verificar las rutas
+  $(window).on('hashchange', function () {
+    crossroads.parse(window.location.hash)
+  })
+
   crossroads.parse(window.location.hash)
-})
+}
 
-crossroads.parse(window.location.hash)
+export default router

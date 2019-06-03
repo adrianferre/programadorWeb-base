@@ -40,6 +40,8 @@ Para manipular el DOM, realizar consultas AJAX y responder a los eventos vamos a
 
 `npm install jquery`
 
+**(docs)[https://jquery.com/download/]**
+
 ### Boostrap
 
 Para la parte visual vamos a utilizar Boostrap para simplificar el trabajo de maquetado y también vamos a instalar Popper que es requerido para algunos componentes, jQuery también es requerido pero lo instalamos en el paso anterior.
@@ -48,39 +50,58 @@ Para la parte visual vamos a utilizar Boostrap para simplificar el trabajo de ma
 
 > Al utilizar el `@` en la instalación nos permite seleccionar versiones especificas de los paquetes de NPM.
 
+**(docs)[https://getbootstrap.com/]**
+
 ### Crossroads
 
 La biblioteca Crossroads nos va a permitir crear un Router para nuestra aplicación que nos va a ayudar a manejar la navegación entre pantallas y hacer el cambio de contenido junto con jQuery.
 
 `npm install crossroads`
 
-### Http-server
-
-Esta biblioteca nos va a permitir servir archivos estáticos como si fuera un servidor, sin eso el método `.load()` de jQuery no va a funcionar localmente.
-
-`npm install http-server -g`
-
-> El `-g` lo instala global en nuestra computadora, en caso de usar Mac poner la palabra `sudo` primero antes del comando npm y luego ingresar nuestra contraseña si nos la pide.
+**(docs)[http://millermedeiros.github.io/crossroads.js/]**
 
 ### Webpack
 
-Para poder trabajar nuestro código en distintos archivos y luego compilarlo en uno solo que sea el que importe el usuario final en la carpeta public vamos a utilizar Webpack.
+Para poder trabajar nuestro código en distintos archivos y luego compilarlo en uno solo que sea el que importe el usuario final en la carpeta public vamos a utilizar Webpack, también vamos a incluir su dev-server que nos va a permitir realizar el desarollo simulando un servidor localmente.
 
-`npm install --save-dev webpack webpack-cli`
+`npm install --save-dev webpack webpack-cli webpack-dev-server`
 
 > Al utilizar `--save-dev` vamos a instalarlo como una dependencia de desarrollo. Esto en el `package.json` va a quedar dentro `devDependencies`, en lugar de en `dependencies`.
 
-### Procesador de CSS
+**(docs)[https://webpack.js.org/]**
 
-Por último para poder importar directamente desde nuestro JavaScript los CSS tenemos que agregar los siguientes dos módulos:
+*Weback require de distintos procesadors para poder interpretas cada tipo de lenguaje, js, html, css, etc. Para esto vamos a tener que instalar los distintos loaders para nuestro proyecto.*
+
+- Html-loader
+
+El procesador html-loader nos va a permitir procesar archivos de HTML.
+
+`npm install --save-dev html-loader`
+
+**(docs)[https://github.com/webpack-contrib/html-loader]**
+
+- Imágenes
+
+Para las imágenes vamos a utilizar un loader que simplmente las copia en el directorio destino.
+
+`npm install --save-dev file-loader`
+
+- CSS
+
+Para poder utilizar leer archivos CSS, precisamos instalar los siguientes dos loaders.
 
 `npm install --save-dev style-loader css-loader`
 
-### Concurrently [Solo windows]
+**(docs)[https://www.npmjs.com/package/style-loader]**
+**(docs)[https://www.npmjs.com/package/css-loader]**
 
-Para poder correr dos procesos al mismo tiempo en Windows es necesario instalar concurrently, ya que no lo soporta de forma nativa.
+- Copiar otros archivos
 
-`npm i concurrently --save-dev`
+Este plugin nos permite copiar todos los otros archivos desde un template y generarlos automaticamente.
+
+`npm install --save-dev copy-webpack-plugin`
+
+**(docs)[https://github.com/webpack-contrib/copy-webpack-plugin]**
 
 ## Configuración
 
@@ -91,29 +112,60 @@ Por último vamos a agregar algunos archivos y líneas de código que nos van a 
 Para terminar de configurar Webpack vamos a agregar un archivo en la carpeta de nuestro proyecto, al mismo nivel del `package.json` con el nombre `webpack.config.js` y dentro vamos a escribir el siguiente código:
 
 ```js
+var CopyWebpackPlugin = require('copy-webpack-plugin')
 var webpack = require('webpack')
 
+var path = require('path')
+
 module.exports = {
-  entry: [ __dirname + '/src/index.js' ],
+  entry: [ './src/js/index.js' ],
   output: {
-    path: __dirname + '/public/js/',
-    filename: 'index.js'
+    filename: 'js/index.js',
+    path: path.resolve(__dirname, 'public')
   },
   module: {
     rules: [
       {
+        test: /\.html$/,
+        use: [
+          {
+            loader: 'html-loader'
+          }
+        ]
+      },
+      {
         test: /\.css$/,
         use: [ 'style-loader', 'css-loader' ]
+      },
+      {
+        test: /\.(png|jpg|gif|svg|ico|jpeg)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[name].[ext]'
+            }
+          }
+        ]
       }
     ]
   },
+  devServer: {
+    port: 3000,
+    hot: true
+  },
   plugins: [
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, './template'),
+        to: path.resolve(__dirname, './public')
+      }
+    ]),
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
     })
-  ],
-  watch: true
+  ]
 }
 ```
 
@@ -123,28 +175,14 @@ module.exports = {
 
 En el archivo `package.json` vamos a agregar el siguiente script:
 
-*Si usamos Mac:*
-
 ```js
   "scripts": {
-    "server": "http-server",
-    "start": "webpack --mode=development & npm run server",
-    "build": "webpack --mode=production"
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
   },
 ```
 
-*Si usamos windows:*
-
-```js
-  "scripts": {
-    "server": "http-server",
-    "dev": "webpack --mode=development",
-    "start": "concurrently --kill-others \"npm run dev\" \"npm run server\"",
-    "build": "webpack --mode=production"
-  },
-```
-
-> Esto nos va a permitir iniciar Webpack en modo desarrollo corriendo el comando `npm start` en consola, si corremos `npm build` lo hacemos en modo producción.
+> Esto nos va a permitir iniciar Webpack en modo desarrollo corriendo el comando `npm start` en consola, si corremos `npm build` lo hacemos en modo productivo.
 
 ## Archivos principales de nuestra aplicación
 
@@ -155,20 +193,11 @@ import 'jquery'
 import 'popper.js'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import './js/app'
 ```
 
 > Esto va a agregar Popover.js, Boostrap, sus estilos y nuestros archivos de JavaScript y CSS principales y a nuestro proyecto.
 
-2. En src/js/ debemos agregar el archivo `app.js` que va a ser el archivo JavaScript principal de nuestra aplicación.
-
-3. En src/css/ debemos agregar el archivo `styles.js` que va a ser el archivo CSS principal de nuestra aplicación.
-
-4. Luego agregar en nuestro `index.html` el siguiente tag:
-
-```html
-<script src="./js/index.js"></script>
-```
+2. En src/js/ debemos agregar el archivo `router.js` que va a ser el archivo JavaScript principal de nuestra aplicación.
 
 > Como Webpack compila todo el código en el archivo `index.js` no es necesario importar nada más.
 
@@ -178,8 +207,8 @@ Al final nos tiene que quedar una estructura como la siguiente:
 
 ## ¿Como usarlo?
 
-A partir de este punto vamos a escribir nuestro código, ya sea CSS o JavaScript en los archivos ubicados en src/css o src/js y en consola vamos a dejar corriendo el comando `npm start`. Cada vez que haya un cambio en algún archivo importado en nuestro archivo `index.js` ubicado en src o en algún archivo importado por este Webpack va a volver a compilar el código y actualizar el `index.js` de la carpeta public, por lo cual con simplemente recargar nuestra página vamos a ver los cambios. Por otro lado http-server va a generar un servidor estático en http://localhost:8080/ y va a exponer en esa ruta lo que esta dentro de la carpeta public, por defecto ejecutando el `index.html`.
+A partir de este punto vamos a escribir nuestro código JavaScript en los archivos ubicados en src/js y en consola vamos a dejar corriendo el comando `npm start`. Cada vez que haya un cambio en algún archivo importado en nuestro archivo `index.js` ubicado en src o en algún archivo importado por este Webpack va a volver a compilar el código y actualizar el `index.js` de la carpeta public y solo va a recargar la página para que veamos los cambios en http://localhost:3000/.
 
-*Importante deshabilitar cache y tener la consola abierta al momento de usarlo, parq ue refresque los cambios!!!*
+*Importante deshabilitar cache y tener la consola abierta al momento de usarlo, para que refresque los cambios!!!*
 
 ![Ejemplo de estructura de carpetas 2](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_02_disabled_cache.png?raw=true)
