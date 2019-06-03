@@ -2,11 +2,11 @@
 
 ## Organización de las carpetas del proyecto
 
-Vamos a empezar a organizar nuestro proyecto para poder construir una SPA, para esto vamos a dividir nuestro proyecto en dos carpetas principales una public que va a contener lo que vamos a subir al servidor y otra src que va a tener los archivos sin procesar.
+Vamos a empezar a organizar nuestro proyecto para poder construir una SPA, para esto vamos a dividir nuestro proyecto en tres carpetas principales una public que va a contener lo que vamos a subir al servidor, otra src que va a tener los archivos sin procesar y una template que simplemente tiene archivos base.
 
 ![Ejemplo de estructura de carpetas 1](https://github.com/adrianc4/programadorWeb-base/blob/master/Teoria%20plataforma/16_02_folders_example_1.png?raw=true)
 
-> En la carpeta public vamos a guardar el `index.html` y los archivos ya procesados de JavaScript, mientras que en la carpeta src vamos a guardar los archivos sin procesar de cada modulo de nuestro proyecto.
+> En la carpeta template vamos a guardar el los archivos ya procesados de JavaScript (La carpeta Recursos), mientras que en la carpeta src vamos a guardar los archivos sin procesar de cada modulo de nuestro proyecto.
 
 ## Creación del package.json
 
